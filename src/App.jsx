@@ -14,23 +14,35 @@ export default function SpanishTenseTrainer() {
     ["imperativo", "Imperativo afirmativo"],
   ];
 
-  
+  const tenseNameMap = {
+    presente: "Presente",
+    indefinido: "Pretérito indefinido",
+    imperfecto: "Imperfecto",
+    futuro: "Futuro simple",
+    condicional: "Condicional",
+    subjuntivo: "Presente de subjuntivo",
+    imperativo: "Imperativo afirmativo",
+  };
+
   const [verbs, setVerbs] = React.useState(
-  verbsData.map(v => [v.verb, v.translation])
-);
+    verbsData
+      .filter((v) => v && v.verb && v.translation)
+      .map((v) => [v.verb, v.translation])
+  );
+
   const [customVerb, setCustomVerb] = React.useState("");
   const [customTranslation, setCustomTranslation] = React.useState("");
 
   const verbTranslations = React.useMemo(() => Object.fromEntries(verbs), [verbs]);
 
-const irregularVerbSet = new Set(
-  verbsData
-    .filter(v => v.irregular)
-    .map(v => v.verb)
-);
-  const irregular = Object.fromEntries(
-  verbsData.map(v => [v.verb, v.forms || {}])
-);
+  const verbsByName = React.useMemo(() => {
+    return Object.fromEntries(verbsData.map((v) => [v.verb, v]));
+  }, []);
+
+  const irregularVerbSet = React.useMemo(() => {
+    return new Set(verbsData.filter((v) => v.irregular).map((v) => v.verb));
+  }, []);
+
   function regularForms(verb, tense) {
     const stem = verb.slice(0, -2);
     const ending = verb.slice(-2);
@@ -68,29 +80,30 @@ const irregularVerbSet = new Set(
       return ["", stem + "e", stem + "a", stem + "amos", stem + "id", stem + "an"];
     }
 
-    return [];
+    return ["", "", "", "", "", ""];
   }
 
- function getForm(verb, tense, personIndex) {
-  const excelTenseMap = {
-    presente: "Presente",
-    indefinido: "Pretérito indefinido",
-    imperfecto: "Imperfecto",
-    futuro: "Futuro simple",
-    condicional: "Condicional",
-    subjuntivo: "Presente de subjuntivo",
-    imperativo: "Imperativo",
-  };
+  function getForm(verb, tense, personIndex) {
+    const verbObj = verbsByName[verb];
 
-  const excelTenseName = excelTenseMap[tense];
-  const jsonForm = irregular[verb]?.[excelTenseName];
+    if (verbObj?.irregular) {
+      const tenseName = tenseNameMap[tense];
+      const person = persons[personIndex];
+      const savedForm = verbObj.forms?.[tenseName];
 
-  if (Array.isArray(jsonForm)) {
-    return jsonForm[personIndex] || "";
+      if (savedForm && typeof savedForm === "object") {
+        return savedForm[person] || "";
+      }
+
+      if (typeof savedForm === "string") {
+        return personIndex === 0 ? savedForm : "";
+      }
+
+      return "";
+    }
+
+    return regularForms(verb, tense)[personIndex] || "";
   }
-
-  return regularForms(verb, tense)[personIndex];
-}
 
   const templates = {
     presente: [
@@ -145,10 +158,12 @@ const irregularVerbSet = new Set(
     const ru = customTranslation.trim() || "новый глагол";
 
     if (!v) return;
+
     if (!v.endsWith("ar") && !v.endsWith("er") && !v.endsWith("ir")) {
       alert("Глагол должен заканчиваться на -ar, -er или -ir");
       return;
     }
+
     if (verbs.some(([verb]) => verb === v)) {
       alert("Этот глагол уже есть в списке");
       return;
@@ -178,6 +193,7 @@ const irregularVerbSet = new Set(
     const verb = selectedVerbs[Math.floor(Math.random() * selectedVerbs.length)];
     const tense = selectedTenses[Math.floor(Math.random() * selectedTenses.length)];
     let personIndex = Math.floor(Math.random() * 6);
+
     if (tense === "imperativo" && personIndex === 0) personIndex = 1;
 
     const [template, ru] = templates[tense][Math.floor(Math.random() * templates[tense].length)];
@@ -213,13 +229,20 @@ const irregularVerbSet = new Set(
 
   function checkExam() {
     setChecked(true);
-    const wrong = exercises.filter((ex) => (answers[ex.id] || "").trim().toLowerCase() !== ex.correct.toLowerCase()).length;
+    const wrong = exercises.filter(
+      (ex) => (answers[ex.id] || "").trim().toLowerCase() !== ex.correct.toLowerCase()
+    ).length;
+
     const errorRate = exercises.length ? (wrong / exercises.length) * 100 : 0;
+
     if (errorRate <= 20 && level < 3) setLevel(level + 1);
     if (errorRate >= 50 && level > 1) setLevel(level - 1);
   }
 
-  const wrongCount = checked ? exercises.filter((ex) => (answers[ex.id] || "").trim().toLowerCase() !== ex.correct.toLowerCase()).length : 0;
+  const wrongCount = checked
+    ? exercises.filter((ex) => (answers[ex.id] || "").trim().toLowerCase() !== ex.correct.toLowerCase()).length
+    : 0;
+
   const total = exercises.length;
   const correctCount = checked ? total - wrongCount : 0;
   const errorPercent = checked && total ? Math.round((wrongCount / total) * 100) : 0;
@@ -234,24 +257,13 @@ const irregularVerbSet = new Set(
 
           <h2 className="text-xl font-bold mb-3">Добавить свой глагол</h2>
           <div className="grid md:grid-cols-3 gap-3 mb-6">
-            <input
-              value={customVerb}
-              onChange={(e) => setCustomVerb(e.target.value)}
-              placeholder="infinitivo: caminar"
-              className="border rounded-xl p-3"
-            />
-            <input
-              value={customTranslation}
-              onChange={(e) => setCustomTranslation(e.target.value)}
-              placeholder="перевод: ходить пешком"
-              className="border rounded-xl p-3"
-            />
-            <button onClick={addCustomVerb} className="px-5 py-3 rounded-xl bg-black text-white font-semibold">
-              Добавить
-            </button>
+            <input value={customVerb} onChange={(e) => setCustomVerb(e.target.value)} placeholder="infinitivo: caminar" className="border rounded-xl p-3" />
+            <input value={customTranslation} onChange={(e) => setCustomTranslation(e.target.value)} placeholder="перевод: ходить пешком" className="border rounded-xl p-3" />
+            <button onClick={addCustomVerb} className="px-5 py-3 rounded-xl bg-black text-white font-semibold">Добавить</button>
           </div>
+
           <p className="text-sm text-slate-500 mb-6">
-            Новые глаголы спрягутся как регулярные. Неправильные формы программа сама не угадывает.
+            Добавлять можно только правильные глаголы на -ar, -er, -ir.
           </p>
 
           <h2 className="text-xl font-bold mb-3">1. Глаголы: {selectedVerbs.length}/6</h2>
@@ -301,6 +313,7 @@ const irregularVerbSet = new Set(
                   ))}
                 </tr>
               </thead>
+
               <tbody>
                 {selectedVerbs.map((verb) =>
                   persons.map((person, personIndex) => (
@@ -344,6 +357,7 @@ const irregularVerbSet = new Set(
             const isWrong = checked && user !== ex.correct.toLowerCase();
             const isCorrect = checked && user === ex.correct.toLowerCase();
             const fullSentence = ex.sentence.replace("___", ex.correct);
+
             return (
               <div key={ex.id} className={`bg-white rounded-3xl shadow p-5 border ${isWrong ? "border-red-400" : isCorrect ? "border-green-400" : "border-transparent"}`}>
                 <div className="flex flex-wrap gap-2 mb-3 text-sm">
@@ -355,12 +369,29 @@ const irregularVerbSet = new Set(
                   <span className="px-3 py-1 rounded-xl bg-slate-200">{ex.person}</span>
                   <button onClick={() => speak(fullSentence)} className="px-3 py-1 rounded-xl bg-indigo-600 text-white">🔊 Audio</button>
                 </div>
+
                 <div className="text-xl font-semibold mb-2">{ex.sentence}</div>
                 <div className="text-slate-600 mb-4">{ex.ru}</div>
-                <input value={answers[ex.id] || ""} onChange={(e) => setAnswers({ ...answers, [ex.id]: e.target.value })} placeholder="Впиши форму глагола" className="w-full border rounded-2xl p-3 text-lg" />
+
+                <input
+                  value={answers[ex.id] || ""}
+                  onChange={(e) => setAnswers({ ...answers, [ex.id]: e.target.value })}
+                  placeholder="Впиши форму глагола"
+                  className="w-full border rounded-2xl p-3 text-lg"
+                />
+
                 {checked && (
                   <div className={`mt-3 rounded-2xl p-3 ${isCorrect ? "bg-green-100" : "bg-red-100"}`}>
-                    {isCorrect ? <div className="font-semibold text-green-800">Правильно</div> : <div className="text-red-800"><div className="font-semibold">Ошибка</div><div>Твой ответ: {answers[ex.id] || "—"}</div><div>Правильно: {ex.correct}</div><div>Полное предложение: {fullSentence}</div></div>}
+                    {isCorrect ? (
+                      <div className="font-semibold text-green-800">Правильно</div>
+                    ) : (
+                      <div className="text-red-800">
+                        <div className="font-semibold">Ошибка</div>
+                        <div>Твой ответ: {answers[ex.id] || "—"}</div>
+                        <div>Правильно: {ex.correct}</div>
+                        <div>Полное предложение: {fullSentence}</div>
+                      </div>
+                    )}
                   </div>
                 )}
               </div>

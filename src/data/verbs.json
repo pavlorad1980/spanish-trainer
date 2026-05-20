@@ -4,31 +4,88 @@
     "translation": "быть (состояние / находиться)",
     "irregular": true,
     "forms": {
-      "Presente": "estoy",
-      "Pretérito indefinido": "estuve",
-      "Imperfecto": "estaba",
-      "Futuro simple": "estaré",
-      "Condicional": "estaría",
-      "Presente de subjuntivo": "esté",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo estoy revisando los documentos antes de salir de casa.",
-      "Перевод примера": "Я проверяю документы перед выходом из дома."
-    }
-  },
-  {
-    "verb": "nan",
-    "translation": "nan",
-    "irregular": false,
-    "forms": {
-      "Presente": "estás",
-      "Pretérito indefinido": "estuviste",
-      "Imperfecto": "estabas",
-      "Futuro simple": "estarás",
-      "Condicional": "estarías",
-      "Presente de subjuntivo": "estés",
-      "Imperativo": "está",
-      "Ejemplo español": "Tú estuviste esperando en la oficina durante casi una hora.",
-      "Перевод примера": "Ты ждал(а) в офисе почти час."
+      "Presente": {
+        "yo": "estoy",
+        "tú": "estás",
+        "él / ella": "está",
+        "nosotros": "estamos",
+        "vosotros": "estáis",
+        "ellos": "están"
+      },
+      "Pretérito indefinido": {
+        "yo": "estuve",
+        "tú": "estuviste",
+        "él / ella": "estuvo",
+        "nosotros": "estuvimos",
+        "vosotros": "estuvisteis",
+        "ellos": "estuvieron"
+      },
+      "Imperfecto": {
+        "yo": "estaba",
+        "tú": "estabas",
+        "él / ella": "estaba",
+        "nosotros": "estábamos",
+        "vosotros": "estabais",
+        "ellos": "estaban"
+      },
+      "Futuro simple": {
+        "yo": "estaré",
+        "tú": "estarás",
+        "él / ella": "estará",
+        "nosotros": "estaremos",
+        "vosotros": "estaréis",
+        "ellos": "estarán"
+      },
+      "Condicional": {
+        "yo": "estaría",
+        "tú": "estarías",
+        "él / ella": "estaría",
+        "nosotros": "estaríamos",
+        "vosotros": "estaríais",
+        "ellos": "estarían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "esté",
+        "tú": "estés",
+        "él / ella": "esté",
+        "nosotros": "estemos",
+        "vosotros": "estéis",
+        "ellos": "estén"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "está",
+        "él / ella": "esté",
+        "nosotros": "estemos",
+        "vosotros": "estad",
+        "ellos": "estén"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo estoy revisando los documentos antes de salir de casa.",
+        "ru": "Я проверяю документы перед выходом из дома."
+      },
+      "tú": {
+        "es": "Tú estuviste esperando en la oficina durante casi una hora.",
+        "ru": "Ты ждал(а) в офисе почти час."
+      },
+      "él / ella": {
+        "es": "Ella estaba muy tranquila cuando recibió la notificación.",
+        "ru": "Она была очень спокойна, когда получила уведомление."
+      },
+      "nosotros": {
+        "es": "Nosotros estamos organizando todos los papeles para la cita.",
+        "ru": "Мы организуем все бумаги для записи."
+      },
+      "vosotros": {
+        "es": "Vosotros estuvisteis en la comisaría la semana pasada.",
+        "ru": "Вы были в полиции на прошлой неделе."
+      },
+      "ellos": {
+        "es": "Ellos estaban cansados después de un día lleno de trámites.",
+        "ru": "Они были уставшими после дня, полного процедур."
+      }
     }
   },
   {
@@ -36,15 +93,88 @@
     "translation": "говорить",
     "irregular": false,
     "forms": {
-      "Presente": "hablo",
-      "Pretérito indefinido": "hablé",
-      "Imperfecto": "hablaba",
-      "Futuro simple": "hablaré",
-      "Condicional": "hablaría",
-      "Presente de subjuntivo": "hable",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo hablo con la funcionaria para aclarar una duda importante.",
-      "Перевод примера": "Я говорю с сотрудницей, чтобы уточнить важный вопрос."
+      "Presente": {
+        "yo": "hablo",
+        "tú": "hablas",
+        "él / ella": "habla",
+        "nosotros": "hablamos",
+        "vosotros": "habláis",
+        "ellos": "hablan"
+      },
+      "Pretérito indefinido": {
+        "yo": "hablé",
+        "tú": "hablaste",
+        "él / ella": "habló",
+        "nosotros": "hablamos",
+        "vosotros": "hablasteis",
+        "ellos": "hablaron"
+      },
+      "Imperfecto": {
+        "yo": "hablaba",
+        "tú": "hablabas",
+        "él / ella": "hablaba",
+        "nosotros": "hablábamos",
+        "vosotros": "hablabais",
+        "ellos": "hablaban"
+      },
+      "Futuro simple": {
+        "yo": "hablaré",
+        "tú": "hablarás",
+        "él / ella": "hablará",
+        "nosotros": "hablaremos",
+        "vosotros": "hablaréis",
+        "ellos": "hablarán"
+      },
+      "Condicional": {
+        "yo": "hablaría",
+        "tú": "hablarías",
+        "él / ella": "hablaría",
+        "nosotros": "hablaríamos",
+        "vosotros": "hablaríais",
+        "ellos": "hablarían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "hable",
+        "tú": "hables",
+        "él / ella": "hable",
+        "nosotros": "hablemos",
+        "vosotros": "habléis",
+        "ellos": "hablen"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "habla",
+        "él / ella": "hable",
+        "nosotros": "hablemos",
+        "vosotros": "hablad",
+        "ellos": "hablen"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo hablo con la funcionaria para aclarar una duda importante.",
+        "ru": "Я говорю с сотрудницей, чтобы уточнить важный вопрос."
+      },
+      "tú": {
+        "es": "Tú hablaste demasiado rápido y no todos te entendieron.",
+        "ru": "Ты говорил(а) слишком быстро, и не все тебя поняли."
+      },
+      "él / ella": {
+        "es": "Él hablaba con sus vecinos cuando llegó la carta oficial.",
+        "ru": "Он разговаривал с соседями, когда пришло официальное письмо."
+      },
+      "nosotros": {
+        "es": "Nosotros hablamos español todos los días para mejorar la pronunciación.",
+        "ru": "Мы говорим по-испански каждый день, чтобы улучшить произношение."
+      },
+      "vosotros": {
+        "es": "Vosotros hablasteis con el profesor después de la clase.",
+        "ru": "Вы поговорили с преподавателем после урока."
+      },
+      "ellos": {
+        "es": "Ellas hablaban de sus planes mientras esperaban el autobús.",
+        "ru": "Они говорили о своих планах, пока ждали автобус."
+      }
     }
   },
   {
@@ -52,15 +182,88 @@
     "translation": "работать",
     "irregular": false,
     "forms": {
-      "Presente": "trabajo",
-      "Pretérito indefinido": "trabajé",
-      "Imperfecto": "trabajaba",
-      "Futuro simple": "trabajaré",
-      "Condicional": "trabajaría",
-      "Presente de subjuntivo": "trabaje",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo trabajo desde temprano porque tengo muchas tareas pendientes.",
-      "Перевод примера": "Я работаю с раннего утра, потому что у меня много незавершённых дел."
+      "Presente": {
+        "yo": "trabajo",
+        "tú": "trabajas",
+        "él / ella": "trabaja",
+        "nosotros": "trabajamos",
+        "vosotros": "trabajáis",
+        "ellos": "trabajan"
+      },
+      "Pretérito indefinido": {
+        "yo": "trabajé",
+        "tú": "trabajaste",
+        "él / ella": "trabajó",
+        "nosotros": "trabajamos",
+        "vosotros": "trabajasteis",
+        "ellos": "trabajaron"
+      },
+      "Imperfecto": {
+        "yo": "trabajaba",
+        "tú": "trabajabas",
+        "él / ella": "trabajaba",
+        "nosotros": "trabajábamos",
+        "vosotros": "trabajabais",
+        "ellos": "trabajaban"
+      },
+      "Futuro simple": {
+        "yo": "trabajaré",
+        "tú": "trabajarás",
+        "él / ella": "trabajará",
+        "nosotros": "trabajaremos",
+        "vosotros": "trabajaréis",
+        "ellos": "trabajarán"
+      },
+      "Condicional": {
+        "yo": "trabajaría",
+        "tú": "trabajarías",
+        "él / ella": "trabajaría",
+        "nosotros": "trabajaríamos",
+        "vosotros": "trabajaríais",
+        "ellos": "trabajarían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "trabaje",
+        "tú": "trabajes",
+        "él / ella": "trabaje",
+        "nosotros": "trabajemos",
+        "vosotros": "trabajéis",
+        "ellos": "trabajen"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "trabaja",
+        "él / ella": "trabaje",
+        "nosotros": "trabajemos",
+        "vosotros": "trabajad",
+        "ellos": "trabajen"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo trabajo desde temprano porque tengo muchas tareas pendientes.",
+        "ru": "Я работаю с раннего утра, потому что у меня много незавершённых дел."
+      },
+      "tú": {
+        "es": "Tú trabajaste mucho para terminar el proyecto a tiempo.",
+        "ru": "Ты много работал(а), чтобы закончить проект вовремя."
+      },
+      "él / ella": {
+        "es": "Ella trabajaba en una tienda cuando empezó a estudiar español.",
+        "ru": "Она работала в магазине, когда начала учить испанский."
+      },
+      "nosotros": {
+        "es": "Nosotros trabajamos juntos cuando el cliente necesita una respuesta rápida.",
+        "ru": "Мы работаем вместе, когда клиенту нужен быстрый ответ."
+      },
+      "vosotros": {
+        "es": "Vosotros trabajasteis en el informe hasta muy tarde.",
+        "ru": "Вы работали над отчётом до очень позднего времени."
+      },
+      "ellos": {
+        "es": "Ellos trabajaban en silencio para no despertar a la niña.",
+        "ru": "Они работали тихо, чтобы не разбудить девочку."
+      }
     }
   },
   {
@@ -68,15 +271,88 @@
     "translation": "отдыхать",
     "irregular": false,
     "forms": {
-      "Presente": "descanso",
-      "Pretérito indefinido": "descansé",
-      "Imperfecto": "descansaba",
-      "Futuro simple": "descansaré",
-      "Condicional": "descansaría",
-      "Presente de subjuntivo": "descanse",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo descanso un poco después de terminar las gestiones de la mañana.",
-      "Перевод примера": "Я немного отдыхаю после утренних дел."
+      "Presente": {
+        "yo": "descanso",
+        "tú": "descansas",
+        "él / ella": "descansa",
+        "nosotros": "descansamos",
+        "vosotros": "descansáis",
+        "ellos": "descansan"
+      },
+      "Pretérito indefinido": {
+        "yo": "descansé",
+        "tú": "descansaste",
+        "él / ella": "descansó",
+        "nosotros": "descansamos",
+        "vosotros": "descansasteis",
+        "ellos": "descansaron"
+      },
+      "Imperfecto": {
+        "yo": "descansaba",
+        "tú": "descansabas",
+        "él / ella": "descansaba",
+        "nosotros": "descansábamos",
+        "vosotros": "descansabais",
+        "ellos": "descansaban"
+      },
+      "Futuro simple": {
+        "yo": "descansaré",
+        "tú": "descansarás",
+        "él / ella": "descansará",
+        "nosotros": "descansaremos",
+        "vosotros": "descansaréis",
+        "ellos": "descansarán"
+      },
+      "Condicional": {
+        "yo": "descansaría",
+        "tú": "descansarías",
+        "él / ella": "descansaría",
+        "nosotros": "descansaríamos",
+        "vosotros": "descansaríais",
+        "ellos": "descansarían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "descanse",
+        "tú": "descanses",
+        "él / ella": "descanse",
+        "nosotros": "descansemos",
+        "vosotros": "descanséis",
+        "ellos": "descansen"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "descansa",
+        "él / ella": "descanse",
+        "nosotros": "descansemos",
+        "vosotros": "descansad",
+        "ellos": "descansen"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo descanso un poco después de terminar las gestiones de la mañana.",
+        "ru": "Я немного отдыхаю после утренних дел."
+      },
+      "tú": {
+        "es": "Tú descansaste mejor cuando apagaste el teléfono.",
+        "ru": "Ты отдохнул(а) лучше, когда выключил(а) телефон."
+      },
+      "él / ella": {
+        "es": "Él descansaba en el sofá mientras los niños jugaban.",
+        "ru": "Он отдыхал на диване, пока дети играли."
+      },
+      "nosotros": {
+        "es": "Nosotros descansamos los domingos si no tenemos citas.",
+        "ru": "Мы отдыхаем по воскресеньям, если у нас нет записей."
+      },
+      "vosotros": {
+        "es": "Vosotros descansasteis en la playa después del viaje largo.",
+        "ru": "Вы отдохнули на пляже после долгой поездки."
+      },
+      "ellos": {
+        "es": "Ellas descansaban cada tarde antes de volver al trabajo.",
+        "ru": "Они отдыхали каждый день после обеда перед возвращением к работе."
+      }
     }
   },
   {
@@ -84,15 +360,88 @@
     "translation": "слушать",
     "irregular": false,
     "forms": {
-      "Presente": "escucho",
-      "Pretérito indefinido": "escuché",
-      "Imperfecto": "escuchaba",
-      "Futuro simple": "escucharé",
-      "Condicional": "escucharía",
-      "Presente de subjuntivo": "escuche",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo escucho las instrucciones antes de completar el formulario.",
-      "Перевод примера": "Я слушаю инструкции перед заполнением формы."
+      "Presente": {
+        "yo": "escucho",
+        "tú": "escuchas",
+        "él / ella": "escucha",
+        "nosotros": "escuchamos",
+        "vosotros": "escucháis",
+        "ellos": "escuchan"
+      },
+      "Pretérito indefinido": {
+        "yo": "escuché",
+        "tú": "escuchaste",
+        "él / ella": "escuchó",
+        "nosotros": "escuchamos",
+        "vosotros": "escuchasteis",
+        "ellos": "escucharon"
+      },
+      "Imperfecto": {
+        "yo": "escuchaba",
+        "tú": "escuchabas",
+        "él / ella": "escuchaba",
+        "nosotros": "escuchábamos",
+        "vosotros": "escuchabais",
+        "ellos": "escuchaban"
+      },
+      "Futuro simple": {
+        "yo": "escucharé",
+        "tú": "escucharás",
+        "él / ella": "escuchará",
+        "nosotros": "escucharemos",
+        "vosotros": "escucharéis",
+        "ellos": "escucharán"
+      },
+      "Condicional": {
+        "yo": "escucharía",
+        "tú": "escucharías",
+        "él / ella": "escucharía",
+        "nosotros": "escucharíamos",
+        "vosotros": "escucharíais",
+        "ellos": "escucharían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "escuche",
+        "tú": "escuches",
+        "él / ella": "escuche",
+        "nosotros": "escuchemos",
+        "vosotros": "escuchéis",
+        "ellos": "escuchen"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "escucha",
+        "él / ella": "escuche",
+        "nosotros": "escuchemos",
+        "vosotros": "escuchad",
+        "ellos": "escuchen"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo escucho las instrucciones antes de completar el formulario.",
+        "ru": "Я слушаю инструкции перед заполнением формы."
+      },
+      "tú": {
+        "es": "Tú escuchaste el mensaje, pero olvidaste responder.",
+        "ru": "Ты прослушал(а) сообщение, но забыл(а) ответить."
+      },
+      "él / ella": {
+        "es": "Ella escuchaba música suave mientras preparaba la cena.",
+        "ru": "Она слушала спокойную музыку, пока готовила ужин."
+      },
+      "nosotros": {
+        "es": "Nosotros escuchamos al profesor cuando explica los tiempos verbales.",
+        "ru": "Мы слушаем преподавателя, когда он объясняет времена глаголов."
+      },
+      "vosotros": {
+        "es": "Vosotros escuchasteis la conversación desde la otra habitación.",
+        "ru": "Вы слышали разговор из другой комнаты."
+      },
+      "ellos": {
+        "es": "Ellos escuchaban la radio mientras viajaban por la isla.",
+        "ru": "Они слушали радио, пока путешествовали по острову."
+      }
     }
   },
   {
@@ -100,15 +449,88 @@
     "translation": "давать",
     "irregular": true,
     "forms": {
-      "Presente": "doy",
-      "Pretérito indefinido": "di",
-      "Imperfecto": "daba",
-      "Futuro simple": "daré",
-      "Condicional": "daría",
-      "Presente de subjuntivo": "dé",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo doy mi número de teléfono cuando completo la solicitud.",
-      "Перевод примера": "Я даю свой номер телефона, когда заполняю заявление."
+      "Presente": {
+        "yo": "doy",
+        "tú": "das",
+        "él / ella": "da",
+        "nosotros": "damos",
+        "vosotros": "dais",
+        "ellos": "dan"
+      },
+      "Pretérito indefinido": {
+        "yo": "di",
+        "tú": "diste",
+        "él / ella": "dio",
+        "nosotros": "dimos",
+        "vosotros": "disteis",
+        "ellos": "dieron"
+      },
+      "Imperfecto": {
+        "yo": "daba",
+        "tú": "dabas",
+        "él / ella": "daba",
+        "nosotros": "dábamos",
+        "vosotros": "dabais",
+        "ellos": "daban"
+      },
+      "Futuro simple": {
+        "yo": "daré",
+        "tú": "darás",
+        "él / ella": "dará",
+        "nosotros": "daremos",
+        "vosotros": "daréis",
+        "ellos": "darán"
+      },
+      "Condicional": {
+        "yo": "daría",
+        "tú": "darías",
+        "él / ella": "daría",
+        "nosotros": "daríamos",
+        "vosotros": "daríais",
+        "ellos": "darían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "dé",
+        "tú": "des",
+        "él / ella": "dé",
+        "nosotros": "demos",
+        "vosotros": "deis",
+        "ellos": "den"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "da",
+        "él / ella": "dé",
+        "nosotros": "demos",
+        "vosotros": "dad",
+        "ellos": "den"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo doy mi número de teléfono cuando completo la solicitud.",
+        "ru": "Я даю свой номер телефона, когда заполняю заявление."
+      },
+      "tú": {
+        "es": "Tú diste una respuesta clara en la entrevista.",
+        "ru": "Ты дал(а) ясный ответ на собеседовании."
+      },
+      "él / ella": {
+        "es": "Él daba clases de español antes de mudarse a Tenerife.",
+        "ru": "Он давал уроки испанского до переезда на Тенерифе."
+      },
+      "nosotros": {
+        "es": "Nosotros damos prioridad a los documentos más urgentes.",
+        "ru": "Мы отдаём приоритет самым срочным документам."
+      },
+      "vosotros": {
+        "es": "Vosotros disteis todos los datos necesarios en la oficina.",
+        "ru": "Вы дали все необходимые данные в офисе."
+      },
+      "ellos": {
+        "es": "Ellas daban comida a los animales cada mañana.",
+        "ru": "Они давали еду животным каждое утро."
+      }
     }
   },
   {
@@ -116,15 +538,88 @@
     "translation": "платить",
     "irregular": false,
     "forms": {
-      "Presente": "pago",
-      "Pretérito indefinido": "pagué",
-      "Imperfecto": "pagaba",
-      "Futuro simple": "pagaré",
-      "Condicional": "pagaría",
-      "Presente de subjuntivo": "pague",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo pago el alquiler antes del día cinco de cada mes.",
-      "Перевод примера": "Я плачу аренду до пятого числа каждого месяца."
+      "Presente": {
+        "yo": "pago",
+        "tú": "pagas",
+        "él / ella": "paga",
+        "nosotros": "pagamos",
+        "vosotros": "pagáis",
+        "ellos": "pagan"
+      },
+      "Pretérito indefinido": {
+        "yo": "pagué",
+        "tú": "pagaste",
+        "él / ella": "pagó",
+        "nosotros": "pagamos",
+        "vosotros": "pagasteis",
+        "ellos": "pagaron"
+      },
+      "Imperfecto": {
+        "yo": "pagaba",
+        "tú": "pagabas",
+        "él / ella": "pagaba",
+        "nosotros": "pagábamos",
+        "vosotros": "pagabais",
+        "ellos": "pagaban"
+      },
+      "Futuro simple": {
+        "yo": "pagaré",
+        "tú": "pagarás",
+        "él / ella": "pagará",
+        "nosotros": "pagaremos",
+        "vosotros": "pagaréis",
+        "ellos": "pagarán"
+      },
+      "Condicional": {
+        "yo": "pagaría",
+        "tú": "pagarías",
+        "él / ella": "pagaría",
+        "nosotros": "pagaríamos",
+        "vosotros": "pagaríais",
+        "ellos": "pagarían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "pague",
+        "tú": "pagues",
+        "él / ella": "pague",
+        "nosotros": "paguemos",
+        "vosotros": "paguéis",
+        "ellos": "paguen"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "paga",
+        "él / ella": "pague",
+        "nosotros": "paguemos",
+        "vosotros": "pagad",
+        "ellos": "paguen"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo pago el alquiler antes del día cinco de cada mes.",
+        "ru": "Я плачу аренду до пятого числа каждого месяца."
+      },
+      "tú": {
+        "es": "Tú pagaste la tasa en el banco equivocado.",
+        "ru": "Ты оплатил(а) пошлину не в том банке."
+      },
+      "él / ella": {
+        "es": "Ella pagaba las facturas cuando todavía vivía sola.",
+        "ru": "Она оплачивала счета, когда ещё жила одна."
+      },
+      "nosotros": {
+        "es": "Nosotros pagamos con tarjeta porque es más rápido.",
+        "ru": "Мы платим картой, потому что так быстрее."
+      },
+      "vosotros": {
+        "es": "Vosotros pagasteis la reserva antes de recibir la confirmación.",
+        "ru": "Вы оплатили бронь до получения подтверждения."
+      },
+      "ellos": {
+        "es": "Ellos pagaban siempre en efectivo para controlar mejor los gastos.",
+        "ru": "Они всегда платили наличными, чтобы лучше контролировать расходы."
+      }
     }
   },
   {
@@ -132,15 +627,88 @@
     "translation": "нравиться",
     "irregular": false,
     "forms": {
-      "Presente": "gusto",
-      "Pretérito indefinido": "gusté",
-      "Imperfecto": "gustaba",
-      "Futuro simple": "gustaré",
-      "Condicional": "gustaría",
-      "Presente de subjuntivo": "guste",
-      "Imperativo": "—",
-      "Ejemplo español": "A mí me gusta estudiar con ejemplos largos y reales.",
-      "Перевод примера": "Мне нравится учиться на длинных и реальных примерах."
+      "Presente": {
+        "yo": "gusto",
+        "tú": "gustas",
+        "él / ella": "gusta",
+        "nosotros": "gustamos",
+        "vosotros": "gustáis",
+        "ellos": "gustan"
+      },
+      "Pretérito indefinido": {
+        "yo": "gusté",
+        "tú": "gustaste",
+        "él / ella": "gustó",
+        "nosotros": "gustamos",
+        "vosotros": "gustasteis",
+        "ellos": "gustaron"
+      },
+      "Imperfecto": {
+        "yo": "gustaba",
+        "tú": "gustabas",
+        "él / ella": "gustaba",
+        "nosotros": "gustábamos",
+        "vosotros": "gustabais",
+        "ellos": "gustaban"
+      },
+      "Futuro simple": {
+        "yo": "gustaré",
+        "tú": "gustarás",
+        "él / ella": "gustará",
+        "nosotros": "gustaremos",
+        "vosotros": "gustaréis",
+        "ellos": "gustarán"
+      },
+      "Condicional": {
+        "yo": "gustaría",
+        "tú": "gustarías",
+        "él / ella": "gustaría",
+        "nosotros": "gustaríamos",
+        "vosotros": "gustaríais",
+        "ellos": "gustarían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "guste",
+        "tú": "gustes",
+        "él / ella": "guste",
+        "nosotros": "gustemos",
+        "vosotros": "gustéis",
+        "ellos": "gusten"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "gusta",
+        "él / ella": "guste",
+        "nosotros": "gustemos",
+        "vosotros": "gustad",
+        "ellos": "gusten"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "A mí me gusta estudiar con ejemplos largos y reales.",
+        "ru": "Мне нравится учиться на длинных и реальных примерах."
+      },
+      "tú": {
+        "es": "A ti te gustó mucho la explicación del profesor.",
+        "ru": "Тебе очень понравилось объяснение преподавателя."
+      },
+      "él / ella": {
+        "es": "A ella le gustaba caminar por la tarde después del trabajo.",
+        "ru": "Ей нравилось гулять вечером после работы."
+      },
+      "nosotros": {
+        "es": "A nosotros nos gusta practicar español en situaciones reales.",
+        "ru": "Нам нравится практиковать испанский в реальных ситуациях."
+      },
+      "vosotros": {
+        "es": "A vosotros os gustó la ciudad desde el primer día.",
+        "ru": "Вам понравился город с первого дня."
+      },
+      "ellos": {
+        "es": "A ellos les gustaban los libros con historias sencillas.",
+        "ru": "Им нравились книги с простыми историями."
+      }
     }
   },
   {
@@ -148,15 +716,88 @@
     "translation": "смотреть",
     "irregular": false,
     "forms": {
-      "Presente": "miro",
-      "Pretérito indefinido": "miré",
-      "Imperfecto": "miraba",
-      "Futuro simple": "miraré",
-      "Condicional": "miraría",
-      "Presente de subjuntivo": "mire",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo miro el calendario antes de pedir una cita nueva.",
-      "Перевод примера": "Я смотрю календарь перед тем, как попросить новую запись."
+      "Presente": {
+        "yo": "miro",
+        "tú": "miras",
+        "él / ella": "mira",
+        "nosotros": "miramos",
+        "vosotros": "miráis",
+        "ellos": "miran"
+      },
+      "Pretérito indefinido": {
+        "yo": "miré",
+        "tú": "miraste",
+        "él / ella": "miró",
+        "nosotros": "miramos",
+        "vosotros": "mirasteis",
+        "ellos": "miraron"
+      },
+      "Imperfecto": {
+        "yo": "miraba",
+        "tú": "mirabas",
+        "él / ella": "miraba",
+        "nosotros": "mirábamos",
+        "vosotros": "mirabais",
+        "ellos": "miraban"
+      },
+      "Futuro simple": {
+        "yo": "miraré",
+        "tú": "mirarás",
+        "él / ella": "mirará",
+        "nosotros": "miraremos",
+        "vosotros": "miraréis",
+        "ellos": "mirarán"
+      },
+      "Condicional": {
+        "yo": "miraría",
+        "tú": "mirarías",
+        "él / ella": "miraría",
+        "nosotros": "miraríamos",
+        "vosotros": "miraríais",
+        "ellos": "mirarían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "mire",
+        "tú": "mires",
+        "él / ella": "mire",
+        "nosotros": "miremos",
+        "vosotros": "miréis",
+        "ellos": "miren"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "mira",
+        "él / ella": "mire",
+        "nosotros": "miremos",
+        "vosotros": "mirad",
+        "ellos": "miren"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo miro el calendario antes de pedir una cita nueva.",
+        "ru": "Я смотрю календарь перед тем, как попросить новую запись."
+      },
+      "tú": {
+        "es": "Tú miraste la dirección varias veces y aun así te equivocaste.",
+        "ru": "Ты посмотрел(а) адрес несколько раз и всё равно ошибся(лась)."
+      },
+      "él / ella": {
+        "es": "Él miraba por la ventana mientras esperaba noticias.",
+        "ru": "Он смотрел в окно, пока ждал новостей."
+      },
+      "nosotros": {
+        "es": "Nosotros miramos los documentos juntos para evitar errores.",
+        "ru": "Мы вместе смотрим документы, чтобы избежать ошибок."
+      },
+      "vosotros": {
+        "es": "Vosotros mirasteis la película sin subtítulos.",
+        "ru": "Вы посмотрели фильм без субтитров."
+      },
+      "ellos": {
+        "es": "Ellas miraban las fotos antiguas durante la cena familiar.",
+        "ru": "Они смотрели старые фотографии во время семейного ужина."
+      }
     }
   },
   {
@@ -164,15 +805,88 @@
     "translation": "путешествовать",
     "irregular": false,
     "forms": {
-      "Presente": "viajo",
-      "Pretérito indefinido": "viajé",
-      "Imperfecto": "viajaba",
-      "Futuro simple": "viajaré",
-      "Condicional": "viajaría",
-      "Presente de subjuntivo": "viaje",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo viajo con pocos documentos, pero siempre llevo el pasaporte.",
-      "Перевод примера": "Я путешествую с небольшим количеством документов, но всегда беру паспорт."
+      "Presente": {
+        "yo": "viajo",
+        "tú": "viajas",
+        "él / ella": "viaja",
+        "nosotros": "viajamos",
+        "vosotros": "viajáis",
+        "ellos": "viajan"
+      },
+      "Pretérito indefinido": {
+        "yo": "viajé",
+        "tú": "viajaste",
+        "él / ella": "viajó",
+        "nosotros": "viajamos",
+        "vosotros": "viajasteis",
+        "ellos": "viajaron"
+      },
+      "Imperfecto": {
+        "yo": "viajaba",
+        "tú": "viajabas",
+        "él / ella": "viajaba",
+        "nosotros": "viajábamos",
+        "vosotros": "viajabais",
+        "ellos": "viajaban"
+      },
+      "Futuro simple": {
+        "yo": "viajaré",
+        "tú": "viajarás",
+        "él / ella": "viajará",
+        "nosotros": "viajaremos",
+        "vosotros": "viajaréis",
+        "ellos": "viajarán"
+      },
+      "Condicional": {
+        "yo": "viajaría",
+        "tú": "viajarías",
+        "él / ella": "viajaría",
+        "nosotros": "viajaríamos",
+        "vosotros": "viajaríais",
+        "ellos": "viajarían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "viaje",
+        "tú": "viajes",
+        "él / ella": "viaje",
+        "nosotros": "viajemos",
+        "vosotros": "viajéis",
+        "ellos": "viajen"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "viaja",
+        "él / ella": "viaje",
+        "nosotros": "viajemos",
+        "vosotros": "viajad",
+        "ellos": "viajen"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo viajo con pocos documentos, pero siempre llevo el pasaporte.",
+        "ru": "Я путешествую с небольшим количеством документов, но всегда беру паспорт."
+      },
+      "tú": {
+        "es": "Tú viajaste a Madrid para resolver un trámite urgente.",
+        "ru": "Ты ездил(а) в Мадрид, чтобы решить срочную процедуру."
+      },
+      "él / ella": {
+        "es": "Ella viajaba mucho antes de empezar el nuevo trabajo.",
+        "ru": "Она много путешествовала до начала новой работы."
+      },
+      "nosotros": {
+        "es": "Nosotros viajamos en coche cuando queremos conocer pueblos pequeños.",
+        "ru": "Мы путешествуем на машине, когда хотим увидеть маленькие посёлки."
+      },
+      "vosotros": {
+        "es": "Vosotros viajasteis en verano aunque los billetes eran caros.",
+        "ru": "Вы путешествовали летом, хотя билеты были дорогими."
+      },
+      "ellos": {
+        "es": "Ellos viajaban con sus hijos todos los años.",
+        "ru": "Они путешествовали со своими детьми каждый год."
+      }
     }
   },
   {
@@ -180,15 +894,88 @@
     "translation": "практиковать / заниматься",
     "irregular": false,
     "forms": {
-      "Presente": "practico",
-      "Pretérito indefinido": "practiqué",
-      "Imperfecto": "practicaba",
-      "Futuro simple": "practicaré",
-      "Condicional": "practicaría",
-      "Presente de subjuntivo": "practique",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo practico la pronunciación antes de hablar con desconocidos.",
-      "Перевод примера": "Я тренирую произношение перед разговором с незнакомыми людьми."
+      "Presente": {
+        "yo": "practico",
+        "tú": "practicas",
+        "él / ella": "practica",
+        "nosotros": "practicamos",
+        "vosotros": "practicáis",
+        "ellos": "practican"
+      },
+      "Pretérito indefinido": {
+        "yo": "practiqué",
+        "tú": "practicaste",
+        "él / ella": "practicó",
+        "nosotros": "practicamos",
+        "vosotros": "practicasteis",
+        "ellos": "practicaron"
+      },
+      "Imperfecto": {
+        "yo": "practicaba",
+        "tú": "practicabas",
+        "él / ella": "practicaba",
+        "nosotros": "practicábamos",
+        "vosotros": "practicabais",
+        "ellos": "practicaban"
+      },
+      "Futuro simple": {
+        "yo": "practicaré",
+        "tú": "practicarás",
+        "él / ella": "practicará",
+        "nosotros": "practicaremos",
+        "vosotros": "practicaréis",
+        "ellos": "practicarán"
+      },
+      "Condicional": {
+        "yo": "practicaría",
+        "tú": "practicarías",
+        "él / ella": "practicaría",
+        "nosotros": "practicaríamos",
+        "vosotros": "practicaríais",
+        "ellos": "practicarían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "practique",
+        "tú": "practiques",
+        "él / ella": "practique",
+        "nosotros": "practiquemos",
+        "vosotros": "practiquéis",
+        "ellos": "practiquen"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "practica",
+        "él / ella": "practique",
+        "nosotros": "practiquemos",
+        "vosotros": "practicad",
+        "ellos": "practiquen"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo practico la pronunciación antes de hablar con desconocidos.",
+        "ru": "Я тренирую произношение перед разговором с незнакомыми людьми."
+      },
+      "tú": {
+        "es": "Tú practicaste los verbos durante toda la tarde.",
+        "ru": "Ты тренировал(а) глаголы весь день после обеда."
+      },
+      "él / ella": {
+        "es": "Él practicaba fútbol cuando era más joven.",
+        "ru": "Он занимался футболом, когда был моложе."
+      },
+      "nosotros": {
+        "es": "Nosotros practicamos español con frases útiles de la vida diaria.",
+        "ru": "Мы практикуем испанский с полезными фразами из повседневной жизни."
+      },
+      "vosotros": {
+        "es": "Vosotros practicasteis mucho antes del examen oral.",
+        "ru": "Вы много практиковались перед устным экзаменом."
+      },
+      "ellos": {
+        "es": "Ellas practicaban canciones para mejorar la memoria.",
+        "ru": "Они разучивали песни, чтобы улучшить память."
+      }
     }
   },
   {
@@ -196,15 +983,88 @@
     "translation": "звонить / называть",
     "irregular": false,
     "forms": {
-      "Presente": "llamo",
-      "Pretérito indefinido": "llamé",
-      "Imperfecto": "llamaba",
-      "Futuro simple": "llamaré",
-      "Condicional": "llamaría",
-      "Presente de subjuntivo": "llame",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo llamo al ayuntamiento para confirmar el horario.",
-      "Перевод примера": "Я звоню в мэрию, чтобы подтвердить расписание."
+      "Presente": {
+        "yo": "llamo",
+        "tú": "llamas",
+        "él / ella": "llama",
+        "nosotros": "llamamos",
+        "vosotros": "llamáis",
+        "ellos": "llaman"
+      },
+      "Pretérito indefinido": {
+        "yo": "llamé",
+        "tú": "llamaste",
+        "él / ella": "llamó",
+        "nosotros": "llamamos",
+        "vosotros": "llamasteis",
+        "ellos": "llamaron"
+      },
+      "Imperfecto": {
+        "yo": "llamaba",
+        "tú": "llamabas",
+        "él / ella": "llamaba",
+        "nosotros": "llamábamos",
+        "vosotros": "llamabais",
+        "ellos": "llamaban"
+      },
+      "Futuro simple": {
+        "yo": "llamaré",
+        "tú": "llamarás",
+        "él / ella": "llamará",
+        "nosotros": "llamaremos",
+        "vosotros": "llamaréis",
+        "ellos": "llamarán"
+      },
+      "Condicional": {
+        "yo": "llamaría",
+        "tú": "llamarías",
+        "él / ella": "llamaría",
+        "nosotros": "llamaríamos",
+        "vosotros": "llamaríais",
+        "ellos": "llamarían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "llame",
+        "tú": "llames",
+        "él / ella": "llame",
+        "nosotros": "llamemos",
+        "vosotros": "llaméis",
+        "ellos": "llamen"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "llama",
+        "él / ella": "llame",
+        "nosotros": "llamemos",
+        "vosotros": "llamad",
+        "ellos": "llamen"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo llamo al ayuntamiento para confirmar el horario.",
+        "ru": "Я звоню в мэрию, чтобы подтвердить расписание."
+      },
+      "tú": {
+        "es": "Tú llamaste demasiado tarde y la oficina ya estaba cerrada.",
+        "ru": "Ты позвонил(а) слишком поздно, и офис уже был закрыт."
+      },
+      "él / ella": {
+        "es": "Ella llamaba a su madre cada noche antes de dormir.",
+        "ru": "Она звонила маме каждый вечер перед сном."
+      },
+      "nosotros": {
+        "es": "Nosotros llamamos al médico cuando la niña tiene fiebre.",
+        "ru": "Мы звоним врачу, когда у девочки температура."
+      },
+      "vosotros": {
+        "es": "Vosotros llamasteis al propietario para hablar del contrato.",
+        "ru": "Вы позвонили владельцу, чтобы поговорить о договоре."
+      },
+      "ellos": {
+        "es": "Ellos llamaban a sus amigos cuando llegaban a una ciudad nueva.",
+        "ru": "Они звонили друзьям, когда приезжали в новый город."
+      }
     }
   },
   {
@@ -212,15 +1072,88 @@
     "translation": "закрывать",
     "irregular": false,
     "forms": {
-      "Presente": "cierro",
-      "Pretérito indefinido": "cerré",
-      "Imperfecto": "cerraba",
-      "Futuro simple": "cerraré",
-      "Condicional": "cerraría",
-      "Presente de subjuntivo": "cierre",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo cierro la carpeta cuando termino de revisar los documentos.",
-      "Перевод примера": "Я закрываю папку, когда заканчиваю проверять документы."
+      "Presente": {
+        "yo": "cierro",
+        "tú": "cierras",
+        "él / ella": "cierra",
+        "nosotros": "cerramos",
+        "vosotros": "cerráis",
+        "ellos": "cierran"
+      },
+      "Pretérito indefinido": {
+        "yo": "cerré",
+        "tú": "cerraste",
+        "él / ella": "cerró",
+        "nosotros": "cerramos",
+        "vosotros": "cerrasteis",
+        "ellos": "cerraron"
+      },
+      "Imperfecto": {
+        "yo": "cerraba",
+        "tú": "cerrabas",
+        "él / ella": "cerraba",
+        "nosotros": "cerrábamos",
+        "vosotros": "cerrabais",
+        "ellos": "cerraban"
+      },
+      "Futuro simple": {
+        "yo": "cerraré",
+        "tú": "cerrarás",
+        "él / ella": "cerrará",
+        "nosotros": "cerraremos",
+        "vosotros": "cerraréis",
+        "ellos": "cerrarán"
+      },
+      "Condicional": {
+        "yo": "cerraría",
+        "tú": "cerrarías",
+        "él / ella": "cerraría",
+        "nosotros": "cerraríamos",
+        "vosotros": "cerraríais",
+        "ellos": "cerrarían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "cierre",
+        "tú": "cierres",
+        "él / ella": "cierre",
+        "nosotros": "cerremos",
+        "vosotros": "cerréis",
+        "ellos": "cierren"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "cierra",
+        "él / ella": "cierre",
+        "nosotros": "cerremos",
+        "vosotros": "cerrad",
+        "ellos": "cierren"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo cierro la carpeta cuando termino de revisar los documentos.",
+        "ru": "Я закрываю папку, когда заканчиваю проверять документы."
+      },
+      "tú": {
+        "es": "Tú cerraste la puerta sin coger las llaves.",
+        "ru": "Ты закрыл(а) дверь, не взяв ключи."
+      },
+      "él / ella": {
+        "es": "Él cerraba la tienda a las ocho de la tarde.",
+        "ru": "Он закрывал магазин в восемь вечера."
+      },
+      "nosotros": {
+        "es": "Nosotros cerramos las ventanas cuando empieza el viento fuerte.",
+        "ru": "Мы закрываем окна, когда начинается сильный ветер."
+      },
+      "vosotros": {
+        "es": "Vosotros cerrasteis el acuerdo después de varias reuniones.",
+        "ru": "Вы заключили соглашение после нескольких встреч."
+      },
+      "ellos": {
+        "es": "Ellas cerraban los libros cuando el profesor entraba en clase.",
+        "ru": "Они закрывали книги, когда преподаватель входил в класс."
+      }
     }
   },
   {
@@ -228,15 +1161,88 @@
     "translation": "покупать",
     "irregular": false,
     "forms": {
-      "Presente": "compro",
-      "Pretérito indefinido": "compré",
-      "Imperfecto": "compraba",
-      "Futuro simple": "compraré",
-      "Condicional": "compraría",
-      "Presente de subjuntivo": "compre",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo compro fruta fresca en el mercado los sábados.",
-      "Перевод примера": "Я покупаю свежие фрукты на рынке по субботам."
+      "Presente": {
+        "yo": "compro",
+        "tú": "compras",
+        "él / ella": "compra",
+        "nosotros": "compramos",
+        "vosotros": "compráis",
+        "ellos": "compran"
+      },
+      "Pretérito indefinido": {
+        "yo": "compré",
+        "tú": "compraste",
+        "él / ella": "compró",
+        "nosotros": "compramos",
+        "vosotros": "comprasteis",
+        "ellos": "compraron"
+      },
+      "Imperfecto": {
+        "yo": "compraba",
+        "tú": "comprabas",
+        "él / ella": "compraba",
+        "nosotros": "comprábamos",
+        "vosotros": "comprabais",
+        "ellos": "compraban"
+      },
+      "Futuro simple": {
+        "yo": "compraré",
+        "tú": "comprarás",
+        "él / ella": "comprará",
+        "nosotros": "compraremos",
+        "vosotros": "compraréis",
+        "ellos": "comprarán"
+      },
+      "Condicional": {
+        "yo": "compraría",
+        "tú": "comprarías",
+        "él / ella": "compraría",
+        "nosotros": "compraríamos",
+        "vosotros": "compraríais",
+        "ellos": "comprarían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "compre",
+        "tú": "compres",
+        "él / ella": "compre",
+        "nosotros": "compremos",
+        "vosotros": "compréis",
+        "ellos": "compren"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "compra",
+        "él / ella": "compre",
+        "nosotros": "compremos",
+        "vosotros": "comprad",
+        "ellos": "compren"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo compro fruta fresca en el mercado los sábados.",
+        "ru": "Я покупаю свежие фрукты на рынке по субботам."
+      },
+      "tú": {
+        "es": "Tú compraste los billetes antes de comprobar las fechas.",
+        "ru": "Ты купил(а) билеты до проверки дат."
+      },
+      "él / ella": {
+        "es": "Ella compraba pan en la misma panadería cada mañana.",
+        "ru": "Она покупала хлеб в одной и той же пекарне каждое утро."
+      },
+      "nosotros": {
+        "es": "Nosotros compramos solo lo necesario para no gastar demasiado.",
+        "ru": "Мы покупаем только необходимое, чтобы не тратить слишком много."
+      },
+      "vosotros": {
+        "es": "Vosotros comprasteis una mesa nueva para la cocina.",
+        "ru": "Вы купили новый стол для кухни."
+      },
+      "ellos": {
+        "es": "Ellos compraban ropa cuando había descuentos grandes.",
+        "ru": "Они покупали одежду, когда были большие скидки."
+      }
     }
   },
   {
@@ -244,15 +1250,88 @@
     "translation": "нуждаться / быть нужным",
     "irregular": false,
     "forms": {
-      "Presente": "necesito",
-      "Pretérito indefinido": "necesité",
-      "Imperfecto": "necesitaba",
-      "Futuro simple": "necesitaré",
-      "Condicional": "necesitaría",
-      "Presente de subjuntivo": "necesite",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo necesito una copia del certificado para renovar la tarjeta.",
-      "Перевод примера": "Мне нужна копия сертификата, чтобы продлить карту."
+      "Presente": {
+        "yo": "necesito",
+        "tú": "necesitas",
+        "él / ella": "necesita",
+        "nosotros": "necesitamos",
+        "vosotros": "necesitáis",
+        "ellos": "necesitan"
+      },
+      "Pretérito indefinido": {
+        "yo": "necesité",
+        "tú": "necesitaste",
+        "él / ella": "necesitó",
+        "nosotros": "necesitamos",
+        "vosotros": "necesitasteis",
+        "ellos": "necesitaron"
+      },
+      "Imperfecto": {
+        "yo": "necesitaba",
+        "tú": "necesitabas",
+        "él / ella": "necesitaba",
+        "nosotros": "necesitábamos",
+        "vosotros": "necesitabais",
+        "ellos": "necesitaban"
+      },
+      "Futuro simple": {
+        "yo": "necesitaré",
+        "tú": "necesitarás",
+        "él / ella": "necesitará",
+        "nosotros": "necesitaremos",
+        "vosotros": "necesitaréis",
+        "ellos": "necesitarán"
+      },
+      "Condicional": {
+        "yo": "necesitaría",
+        "tú": "necesitarías",
+        "él / ella": "necesitaría",
+        "nosotros": "necesitaríamos",
+        "vosotros": "necesitaríais",
+        "ellos": "necesitarían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "necesite",
+        "tú": "necesites",
+        "él / ella": "necesite",
+        "nosotros": "necesitemos",
+        "vosotros": "necesitéis",
+        "ellos": "necesiten"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "necesita",
+        "él / ella": "necesite",
+        "nosotros": "necesitemos",
+        "vosotros": "necesitad",
+        "ellos": "necesiten"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo necesito una copia del certificado para renovar la tarjeta.",
+        "ru": "Мне нужна копия сертификата, чтобы продлить карту."
+      },
+      "tú": {
+        "es": "Tú necesitaste ayuda porque el formulario era confuso.",
+        "ru": "Тебе понадобилась помощь, потому что форма была непонятной."
+      },
+      "él / ella": {
+        "es": "Ella necesitaba más tiempo para preparar todos los papeles.",
+        "ru": "Ей нужно было больше времени, чтобы подготовить все бумаги."
+      },
+      "nosotros": {
+        "es": "Nosotros necesitamos confirmar la cita antes de salir.",
+        "ru": "Нам нужно подтвердить запись перед выходом."
+      },
+      "vosotros": {
+        "es": "Vosotros necesitasteis otro documento para completar el expediente.",
+        "ru": "Вам понадобился ещё один документ, чтобы завершить дело."
+      },
+      "ellos": {
+        "es": "Ellos necesitaban aprender español para trabajar con clientes.",
+        "ru": "Им нужно было учить испанский, чтобы работать с клиентами."
+      }
     }
   },
   {
@@ -260,15 +1339,88 @@
     "translation": "иметь",
     "irregular": true,
     "forms": {
-      "Presente": "tengo",
-      "Pretérito indefinido": "tuve",
-      "Imperfecto": "tenía",
-      "Futuro simple": "tendré",
-      "Condicional": "tendría",
-      "Presente de subjuntivo": "tenga",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo tengo todos los documentos guardados en una carpeta.",
-      "Перевод примера": "У меня все документы хранятся в папке."
+      "Presente": {
+        "yo": "tengo",
+        "tú": "tienes",
+        "él / ella": "tiene",
+        "nosotros": "tenemos",
+        "vosotros": "tenéis",
+        "ellos": "tienen"
+      },
+      "Pretérito indefinido": {
+        "yo": "tuve",
+        "tú": "tuviste",
+        "él / ella": "tuvo",
+        "nosotros": "tuvimos",
+        "vosotros": "tuvisteis",
+        "ellos": "tuvieron"
+      },
+      "Imperfecto": {
+        "yo": "tenía",
+        "tú": "tenías",
+        "él / ella": "tenía",
+        "nosotros": "teníamos",
+        "vosotros": "teníais",
+        "ellos": "tenían"
+      },
+      "Futuro simple": {
+        "yo": "tendré",
+        "tú": "tendrás",
+        "él / ella": "tendrá",
+        "nosotros": "tendremos",
+        "vosotros": "tendréis",
+        "ellos": "tendrán"
+      },
+      "Condicional": {
+        "yo": "tendría",
+        "tú": "tendrías",
+        "él / ella": "tendría",
+        "nosotros": "tendríamos",
+        "vosotros": "tendríais",
+        "ellos": "tendrían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "tenga",
+        "tú": "tengas",
+        "él / ella": "tenga",
+        "nosotros": "tengamos",
+        "vosotros": "tengáis",
+        "ellos": "tengan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "ten",
+        "él / ella": "tenga",
+        "nosotros": "tengamos",
+        "vosotros": "tened",
+        "ellos": "tengan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo tengo todos los documentos guardados en una carpeta.",
+        "ru": "У меня все документы хранятся в папке."
+      },
+      "tú": {
+        "es": "Tú tuviste mucha paciencia durante la espera.",
+        "ru": "У тебя было много терпения во время ожидания."
+      },
+      "él / ella": {
+        "es": "Él tenía una cita, pero llegó diez minutos tarde.",
+        "ru": "У него была запись, но он опоздал на десять минут."
+      },
+      "nosotros": {
+        "es": "Nosotros tenemos que revisar la fecha antes de firmar.",
+        "ru": "Мы должны проверить дату перед подписанием."
+      },
+      "vosotros": {
+        "es": "Vosotros tuvisteis suerte porque os atendieron rápidamente.",
+        "ru": "Вам повезло, потому что вас быстро обслужили."
+      },
+      "ellos": {
+        "es": "Ellas tenían miedo de cometer errores en la solicitud.",
+        "ru": "Они боялись допустить ошибки в заявлении."
+      }
     }
   },
   {
@@ -276,15 +1428,88 @@
     "translation": "делать",
     "irregular": true,
     "forms": {
-      "Presente": "hago",
-      "Pretérito indefinido": "hice",
-      "Imperfecto": "hacía",
-      "Futuro simple": "haré",
-      "Condicional": "haría",
-      "Presente de subjuntivo": "haga",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo hago una lista antes de ir a cualquier oficina.",
-      "Перевод примера": "Я делаю список перед походом в любой офис."
+      "Presente": {
+        "yo": "hago",
+        "tú": "haces",
+        "él / ella": "hace",
+        "nosotros": "hacemos",
+        "vosotros": "hacéis",
+        "ellos": "hacen"
+      },
+      "Pretérito indefinido": {
+        "yo": "hice",
+        "tú": "hiciste",
+        "él / ella": "hizo",
+        "nosotros": "hicimos",
+        "vosotros": "hicisteis",
+        "ellos": "hicieron"
+      },
+      "Imperfecto": {
+        "yo": "hacía",
+        "tú": "hacías",
+        "él / ella": "hacía",
+        "nosotros": "hacíamos",
+        "vosotros": "hacíais",
+        "ellos": "hacían"
+      },
+      "Futuro simple": {
+        "yo": "haré",
+        "tú": "harás",
+        "él / ella": "hará",
+        "nosotros": "haremos",
+        "vosotros": "haréis",
+        "ellos": "harán"
+      },
+      "Condicional": {
+        "yo": "haría",
+        "tú": "harías",
+        "él / ella": "haría",
+        "nosotros": "haríamos",
+        "vosotros": "haríais",
+        "ellos": "harían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "haga",
+        "tú": "hagas",
+        "él / ella": "haga",
+        "nosotros": "hagamos",
+        "vosotros": "hagáis",
+        "ellos": "hagan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "haz",
+        "él / ella": "haga",
+        "nosotros": "hagamos",
+        "vosotros": "haced",
+        "ellos": "hagan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo hago una lista antes de ir a cualquier oficina.",
+        "ru": "Я делаю список перед походом в любой офис."
+      },
+      "tú": {
+        "es": "Tú hiciste la solicitud correctamente después de corregir los datos.",
+        "ru": "Ты правильно сделал(а) заявление после исправления данных."
+      },
+      "él / ella": {
+        "es": "Ella hacía la cena mientras los niños estudiaban.",
+        "ru": "Она готовила ужин, пока дети учились."
+      },
+      "nosotros": {
+        "es": "Nosotros hacemos copias de todos los documentos importantes.",
+        "ru": "Мы делаем копии всех важных документов."
+      },
+      "vosotros": {
+        "es": "Vosotros hicisteis un buen trabajo con la traducción.",
+        "ru": "Вы хорошо справились с переводом."
+      },
+      "ellos": {
+        "es": "Ellos hacían deporte cada mañana antes del trabajo.",
+        "ru": "Они занимались спортом каждое утро перед работой."
+      }
     }
   },
   {
@@ -292,15 +1517,88 @@
     "translation": "есть / кушать",
     "irregular": false,
     "forms": {
-      "Presente": "como",
-      "Pretérito indefinido": "comí",
-      "Imperfecto": "comía",
-      "Futuro simple": "comeré",
-      "Condicional": "comería",
-      "Presente de subjuntivo": "coma",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo como algo ligero antes de una cita importante.",
-      "Перевод примера": "Я ем что-то лёгкое перед важной встречей."
+      "Presente": {
+        "yo": "como",
+        "tú": "comes",
+        "él / ella": "come",
+        "nosotros": "comemos",
+        "vosotros": "coméis",
+        "ellos": "comen"
+      },
+      "Pretérito indefinido": {
+        "yo": "comí",
+        "tú": "comiste",
+        "él / ella": "comió",
+        "nosotros": "comimos",
+        "vosotros": "comisteis",
+        "ellos": "comieron"
+      },
+      "Imperfecto": {
+        "yo": "comía",
+        "tú": "comías",
+        "él / ella": "comía",
+        "nosotros": "comíamos",
+        "vosotros": "comíais",
+        "ellos": "comían"
+      },
+      "Futuro simple": {
+        "yo": "comeré",
+        "tú": "comerás",
+        "él / ella": "comerá",
+        "nosotros": "comeremos",
+        "vosotros": "comeréis",
+        "ellos": "comerán"
+      },
+      "Condicional": {
+        "yo": "comería",
+        "tú": "comerías",
+        "él / ella": "comería",
+        "nosotros": "comeríamos",
+        "vosotros": "comeríais",
+        "ellos": "comerían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "coma",
+        "tú": "comas",
+        "él / ella": "coma",
+        "nosotros": "comamos",
+        "vosotros": "comáis",
+        "ellos": "coman"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "come",
+        "él / ella": "coma",
+        "nosotros": "comamos",
+        "vosotros": "comed",
+        "ellos": "coman"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo como algo ligero antes de una cita importante.",
+        "ru": "Я ем что-то лёгкое перед важной встречей."
+      },
+      "tú": {
+        "es": "Tú comiste demasiado rápido y luego te sentiste mal.",
+        "ru": "Ты ел(а) слишком быстро, а потом почувствовал(а) себя плохо."
+      },
+      "él / ella": {
+        "es": "Ella comía con pan porque así lo hacía su familia.",
+        "ru": "Она ела с хлебом, потому что так делала её семья."
+      },
+      "nosotros": {
+        "es": "Nosotros comemos juntos cuando todos llegan temprano.",
+        "ru": "Мы едим вместе, когда все приходят рано."
+      },
+      "vosotros": {
+        "es": "Vosotros comisteis en un restaurante cerca de la oficina.",
+        "ru": "Вы поели в ресторане рядом с офисом."
+      },
+      "ellos": {
+        "es": "Ellos comían sopa caliente en los días de lluvia.",
+        "ru": "Они ели горячий суп в дождливые дни."
+      }
     }
   },
   {
@@ -308,15 +1606,88 @@
     "translation": "хотеть / любить",
     "irregular": true,
     "forms": {
-      "Presente": "quiero",
-      "Pretérito indefinido": "quise",
-      "Imperfecto": "quería",
-      "Futuro simple": "querré",
-      "Condicional": "querría",
-      "Presente de subjuntivo": "quiera",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo quiero entender la gramática, no solo memorizar palabras.",
-      "Перевод примера": "Я хочу понимать грамматику, а не просто запоминать слова."
+      "Presente": {
+        "yo": "quiero",
+        "tú": "quieres",
+        "él / ella": "quiere",
+        "nosotros": "queremos",
+        "vosotros": "queréis",
+        "ellos": "quieren"
+      },
+      "Pretérito indefinido": {
+        "yo": "quise",
+        "tú": "quisiste",
+        "él / ella": "quiso",
+        "nosotros": "quisimos",
+        "vosotros": "quisisteis",
+        "ellos": "quisieron"
+      },
+      "Imperfecto": {
+        "yo": "quería",
+        "tú": "querías",
+        "él / ella": "quería",
+        "nosotros": "queríamos",
+        "vosotros": "queríais",
+        "ellos": "querían"
+      },
+      "Futuro simple": {
+        "yo": "querré",
+        "tú": "querrás",
+        "él / ella": "querrá",
+        "nosotros": "querremos",
+        "vosotros": "querréis",
+        "ellos": "querrán"
+      },
+      "Condicional": {
+        "yo": "querría",
+        "tú": "querrías",
+        "él / ella": "querría",
+        "nosotros": "querríamos",
+        "vosotros": "querríais",
+        "ellos": "querrían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "quiera",
+        "tú": "quieras",
+        "él / ella": "quiera",
+        "nosotros": "queramos",
+        "vosotros": "queráis",
+        "ellos": "quieran"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "quiere",
+        "él / ella": "quiera",
+        "nosotros": "queramos",
+        "vosotros": "quered",
+        "ellos": "quieran"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo quiero entender la gramática, no solo memorizar palabras.",
+        "ru": "Я хочу понимать грамматику, а не просто запоминать слова."
+      },
+      "tú": {
+        "es": "Tú quisiste cambiar la cita, pero ya no había horarios libres.",
+        "ru": "Ты захотел(а) изменить запись, но свободных часов уже не было."
+      },
+      "él / ella": {
+        "es": "Ella quería estudiar más, aunque estaba muy cansada.",
+        "ru": "Она хотела учиться больше, хотя была очень уставшей."
+      },
+      "nosotros": {
+        "es": "Nosotros queremos presentar todos los papeles sin errores.",
+        "ru": "Мы хотим подать все документы без ошибок."
+      },
+      "vosotros": {
+        "es": "Vosotros quisisteis ayudar, pero llegasteis demasiado tarde.",
+        "ru": "Вы хотели помочь, но пришли слишком поздно."
+      },
+      "ellos": {
+        "es": "Ellos querían vivir cerca del colegio de su hija.",
+        "ru": "Они хотели жить рядом со школой дочери."
+      }
     }
   },
   {
@@ -324,15 +1695,88 @@
     "translation": "мочь",
     "irregular": true,
     "forms": {
-      "Presente": "puedo",
-      "Pretérito indefinido": "pude",
-      "Imperfecto": "podía",
-      "Futuro simple": "podré",
-      "Condicional": "podría",
-      "Presente de subjuntivo": "pueda",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo puedo explicar el problema si me escuchan con atención.",
-      "Перевод примера": "Я могу объяснить проблему, если меня внимательно выслушают."
+      "Presente": {
+        "yo": "puedo",
+        "tú": "puedes",
+        "él / ella": "puede",
+        "nosotros": "podemos",
+        "vosotros": "podéis",
+        "ellos": "pueden"
+      },
+      "Pretérito indefinido": {
+        "yo": "pude",
+        "tú": "pudiste",
+        "él / ella": "pudo",
+        "nosotros": "pudimos",
+        "vosotros": "pudisteis",
+        "ellos": "pudieron"
+      },
+      "Imperfecto": {
+        "yo": "podía",
+        "tú": "podías",
+        "él / ella": "podía",
+        "nosotros": "podíamos",
+        "vosotros": "podíais",
+        "ellos": "podían"
+      },
+      "Futuro simple": {
+        "yo": "podré",
+        "tú": "podrás",
+        "él / ella": "podrá",
+        "nosotros": "podremos",
+        "vosotros": "podréis",
+        "ellos": "podrán"
+      },
+      "Condicional": {
+        "yo": "podría",
+        "tú": "podrías",
+        "él / ella": "podría",
+        "nosotros": "podríamos",
+        "vosotros": "podríais",
+        "ellos": "podrían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "pueda",
+        "tú": "puedas",
+        "él / ella": "pueda",
+        "nosotros": "podamos",
+        "vosotros": "podáis",
+        "ellos": "puedan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "puede",
+        "él / ella": "pueda",
+        "nosotros": "podamos",
+        "vosotros": "poded",
+        "ellos": "puedan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo puedo explicar el problema si me escuchan con atención.",
+        "ru": "Я могу объяснить проблему, если меня внимательно выслушают."
+      },
+      "tú": {
+        "es": "Tú pudiste resolverlo porque preparaste todo antes.",
+        "ru": "Ты смог(ла) это решить, потому что подготовил(а) всё заранее."
+      },
+      "él / ella": {
+        "es": "Él podía leer documentos oficiales sin ayuda.",
+        "ru": "Он мог читать официальные документы без помощи."
+      },
+      "nosotros": {
+        "es": "Nosotros podemos salir cuando termine la llamada.",
+        "ru": "Мы можем выйти, когда закончится звонок."
+      },
+      "vosotros": {
+        "es": "Vosotros pudisteis entrar porque teníais cita confirmada.",
+        "ru": "Вы смогли войти, потому что у вас была подтверждённая запись."
+      },
+      "ellos": {
+        "es": "Ellas podían estudiar por la noche cuando la casa estaba tranquila.",
+        "ru": "Они могли учиться вечером, когда дома было тихо."
+      }
     }
   },
   {
@@ -340,15 +1784,88 @@
     "translation": "видеть / смотреть",
     "irregular": true,
     "forms": {
-      "Presente": "veo",
-      "Pretérito indefinido": "vi",
-      "Imperfecto": "veía",
-      "Futuro simple": "veré",
-      "Condicional": "vería",
-      "Presente de subjuntivo": "vea",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo veo claramente el error en la segunda página.",
-      "Перевод примера": "Я ясно вижу ошибку на второй странице."
+      "Presente": {
+        "yo": "veo",
+        "tú": "ves",
+        "él / ella": "ve",
+        "nosotros": "vemos",
+        "vosotros": "veis",
+        "ellos": "ven"
+      },
+      "Pretérito indefinido": {
+        "yo": "vi",
+        "tú": "viste",
+        "él / ella": "vio",
+        "nosotros": "vimos",
+        "vosotros": "visteis",
+        "ellos": "vieron"
+      },
+      "Imperfecto": {
+        "yo": "veía",
+        "tú": "veías",
+        "él / ella": "veía",
+        "nosotros": "veíamos",
+        "vosotros": "veíais",
+        "ellos": "veían"
+      },
+      "Futuro simple": {
+        "yo": "veré",
+        "tú": "verás",
+        "él / ella": "verá",
+        "nosotros": "veremos",
+        "vosotros": "veréis",
+        "ellos": "verán"
+      },
+      "Condicional": {
+        "yo": "vería",
+        "tú": "verías",
+        "él / ella": "vería",
+        "nosotros": "veríamos",
+        "vosotros": "veríais",
+        "ellos": "verían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "vea",
+        "tú": "veas",
+        "él / ella": "vea",
+        "nosotros": "veamos",
+        "vosotros": "veáis",
+        "ellos": "vean"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "ve",
+        "él / ella": "vea",
+        "nosotros": "veamos",
+        "vosotros": "ved",
+        "ellos": "vean"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo veo claramente el error en la segunda página.",
+        "ru": "Я ясно вижу ошибку на второй странице."
+      },
+      "tú": {
+        "es": "Tú viste el mensaje, pero no lo abriste inmediatamente.",
+        "ru": "Ты увидел(а) сообщение, но не открыл(а) его сразу."
+      },
+      "él / ella": {
+        "es": "Ella veía la montaña desde la ventana de su habitación.",
+        "ru": "Она видела гору из окна своей комнаты."
+      },
+      "nosotros": {
+        "es": "Nosotros vemos películas en español para aprender expresiones nuevas.",
+        "ru": "Мы смотрим фильмы на испанском, чтобы учить новые выражения."
+      },
+      "vosotros": {
+        "es": "Vosotros visteis al vecino cuando salía del edificio.",
+        "ru": "Вы видели соседа, когда он выходил из здания."
+      },
+      "ellos": {
+        "es": "Ellos veían muchas diferencias entre los dos formularios.",
+        "ru": "Они видели много различий между двумя формами."
+      }
     }
   },
   {
@@ -356,15 +1873,88 @@
     "translation": "пить",
     "irregular": false,
     "forms": {
-      "Presente": "bebo",
-      "Pretérito indefinido": "bebí",
-      "Imperfecto": "bebía",
-      "Futuro simple": "beberé",
-      "Condicional": "bebería",
-      "Presente de subjuntivo": "beba",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo bebo agua antes de empezar la clase.",
-      "Перевод примера": "Я пью воду перед началом занятия."
+      "Presente": {
+        "yo": "bebo",
+        "tú": "bebes",
+        "él / ella": "bebe",
+        "nosotros": "bebemos",
+        "vosotros": "bebéis",
+        "ellos": "beben"
+      },
+      "Pretérito indefinido": {
+        "yo": "bebí",
+        "tú": "bebiste",
+        "él / ella": "bebió",
+        "nosotros": "bebimos",
+        "vosotros": "bebisteis",
+        "ellos": "bebieron"
+      },
+      "Imperfecto": {
+        "yo": "bebía",
+        "tú": "bebías",
+        "él / ella": "bebía",
+        "nosotros": "bebíamos",
+        "vosotros": "bebíais",
+        "ellos": "bebían"
+      },
+      "Futuro simple": {
+        "yo": "beberé",
+        "tú": "beberás",
+        "él / ella": "beberá",
+        "nosotros": "beberemos",
+        "vosotros": "beberéis",
+        "ellos": "beberán"
+      },
+      "Condicional": {
+        "yo": "bebería",
+        "tú": "beberías",
+        "él / ella": "bebería",
+        "nosotros": "beberíamos",
+        "vosotros": "beberíais",
+        "ellos": "beberían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "beba",
+        "tú": "bebas",
+        "él / ella": "beba",
+        "nosotros": "bebamos",
+        "vosotros": "bebáis",
+        "ellos": "beban"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "bebe",
+        "él / ella": "beba",
+        "nosotros": "bebamos",
+        "vosotros": "bebed",
+        "ellos": "beban"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo bebo agua antes de empezar la clase.",
+        "ru": "Я пью воду перед началом занятия."
+      },
+      "tú": {
+        "es": "Tú bebiste café porque tenías mucho sueño.",
+        "ru": "Ты выпил(а) кофе, потому что очень хотел(а) спать."
+      },
+      "él / ella": {
+        "es": "Ella bebía té mientras leía las noticias.",
+        "ru": "Она пила чай, пока читала новости."
+      },
+      "nosotros": {
+        "es": "Nosotros bebemos menos refrescos desde que cuidamos la salud.",
+        "ru": "Мы пьём меньше газировки с тех пор, как заботимся о здоровье."
+      },
+      "vosotros": {
+        "es": "Vosotros bebisteis mucha agua después de caminar bajo el sol.",
+        "ru": "Вы выпили много воды после прогулки под солнцем."
+      },
+      "ellos": {
+        "es": "Ellos bebían zumo natural en el desayuno.",
+        "ru": "Они пили натуральный сок на завтрак."
+      }
     }
   },
   {
@@ -372,15 +1962,88 @@
     "translation": "читать",
     "irregular": false,
     "forms": {
-      "Presente": "leo",
-      "Pretérito indefinido": "leí",
-      "Imperfecto": "leía",
-      "Futuro simple": "leeré",
-      "Condicional": "leería",
-      "Presente de subjuntivo": "lea",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo leo las instrucciones antes de firmar cualquier documento.",
-      "Перевод примера": "Я читаю инструкции перед подписанием любого документа."
+      "Presente": {
+        "yo": "leo",
+        "tú": "lees",
+        "él / ella": "lee",
+        "nosotros": "leemos",
+        "vosotros": "leéis",
+        "ellos": "leen"
+      },
+      "Pretérito indefinido": {
+        "yo": "leí",
+        "tú": "leíste",
+        "él / ella": "leyó",
+        "nosotros": "leímos",
+        "vosotros": "leísteis",
+        "ellos": "leyeron"
+      },
+      "Imperfecto": {
+        "yo": "leía",
+        "tú": "leías",
+        "él / ella": "leía",
+        "nosotros": "leíamos",
+        "vosotros": "leíais",
+        "ellos": "leían"
+      },
+      "Futuro simple": {
+        "yo": "leeré",
+        "tú": "leerás",
+        "él / ella": "leerá",
+        "nosotros": "leeremos",
+        "vosotros": "leeréis",
+        "ellos": "leerán"
+      },
+      "Condicional": {
+        "yo": "leería",
+        "tú": "leerías",
+        "él / ella": "leería",
+        "nosotros": "leeríamos",
+        "vosotros": "leeríais",
+        "ellos": "leerían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "lea",
+        "tú": "leas",
+        "él / ella": "lea",
+        "nosotros": "leamos",
+        "vosotros": "leáis",
+        "ellos": "lean"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "lee",
+        "él / ella": "lea",
+        "nosotros": "leamos",
+        "vosotros": "leed",
+        "ellos": "lean"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo leo las instrucciones antes de firmar cualquier documento.",
+        "ru": "Я читаю инструкции перед подписанием любого документа."
+      },
+      "tú": {
+        "es": "Tú leíste el correo, pero no entendiste la última parte.",
+        "ru": "Ты прочитал(а) письмо, но не понял(а) последнюю часть."
+      },
+      "él / ella": {
+        "es": "Ella leía cuentos a su hija todas las noches.",
+        "ru": "Она читала сказки дочери каждый вечер."
+      },
+      "nosotros": {
+        "es": "Nosotros leemos frases completas para aprender mejor los verbos.",
+        "ru": "Мы читаем полные фразы, чтобы лучше учить глаголы."
+      },
+      "vosotros": {
+        "es": "Vosotros leísteis el contrato antes de pagar la reserva.",
+        "ru": "Вы прочитали договор перед оплатой брони."
+      },
+      "ellos": {
+        "es": "Ellos leían en voz alta para practicar la pronunciación.",
+        "ru": "Они читали вслух, чтобы практиковать произношение."
+      }
     }
   },
   {
@@ -388,15 +2051,88 @@
     "translation": "знать / уметь",
     "irregular": true,
     "forms": {
-      "Presente": "sé",
-      "Pretérito indefinido": "supe",
-      "Imperfecto": "sabía",
-      "Futuro simple": "sabré",
-      "Condicional": "sabría",
-      "Presente de subjuntivo": "sepa",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo sé dónde está la oficina de extranjería.",
-      "Перевод примера": "Я знаю, где находится отдел иностранцев."
+      "Presente": {
+        "yo": "sé",
+        "tú": "sabes",
+        "él / ella": "sabe",
+        "nosotros": "sabemos",
+        "vosotros": "sabéis",
+        "ellos": "saben"
+      },
+      "Pretérito indefinido": {
+        "yo": "supe",
+        "tú": "supiste",
+        "él / ella": "supo",
+        "nosotros": "supimos",
+        "vosotros": "supisteis",
+        "ellos": "supieron"
+      },
+      "Imperfecto": {
+        "yo": "sabía",
+        "tú": "sabías",
+        "él / ella": "sabía",
+        "nosotros": "sabíamos",
+        "vosotros": "sabíais",
+        "ellos": "sabían"
+      },
+      "Futuro simple": {
+        "yo": "sabré",
+        "tú": "sabrás",
+        "él / ella": "sabrá",
+        "nosotros": "sabremos",
+        "vosotros": "sabréis",
+        "ellos": "sabrán"
+      },
+      "Condicional": {
+        "yo": "sabría",
+        "tú": "sabrías",
+        "él / ella": "sabría",
+        "nosotros": "sabríamos",
+        "vosotros": "sabríais",
+        "ellos": "sabrían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "sepa",
+        "tú": "sepas",
+        "él / ella": "sepa",
+        "nosotros": "sepamos",
+        "vosotros": "sepáis",
+        "ellos": "sepan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "sabe",
+        "él / ella": "sepa",
+        "nosotros": "sepamos",
+        "vosotros": "sabed",
+        "ellos": "sepan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo sé dónde está la oficina de extranjería.",
+        "ru": "Я знаю, где находится отдел иностранцев."
+      },
+      "tú": {
+        "es": "Tú supiste la respuesta después de revisar los apuntes.",
+        "ru": "Ты узнал(а) ответ после проверки заметок."
+      },
+      "él / ella": {
+        "es": "Él sabía hablar español antes de llegar a la isla.",
+        "ru": "Он умел говорить по-испански до приезда на остров."
+      },
+      "nosotros": {
+        "es": "Nosotros sabemos que esta forma necesita una firma.",
+        "ru": "Мы знаем, что этой форме нужна подпись."
+      },
+      "vosotros": {
+        "es": "Vosotros supisteis la noticia por un amigo común.",
+        "ru": "Вы узнали новость от общего друга."
+      },
+      "ellos": {
+        "es": "Ellas sabían cocinar muchos platos tradicionales.",
+        "ru": "Они умели готовить много традиционных блюд."
+      }
     }
   },
   {
@@ -404,15 +2140,88 @@
     "translation": "понимать",
     "irregular": false,
     "forms": {
-      "Presente": "entiendo",
-      "Pretérito indefinido": "entendí",
-      "Imperfecto": "entendía",
-      "Futuro simple": "entenderé",
-      "Condicional": "entendería",
-      "Presente de subjuntivo": "entienda",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo entiendo la regla cuando veo varios ejemplos.",
-      "Перевод примера": "Я понимаю правило, когда вижу несколько примеров."
+      "Presente": {
+        "yo": "entiendo",
+        "tú": "entiendes",
+        "él / ella": "entiende",
+        "nosotros": "entendemos",
+        "vosotros": "entendéis",
+        "ellos": "entienden"
+      },
+      "Pretérito indefinido": {
+        "yo": "entendí",
+        "tú": "entendiste",
+        "él / ella": "entendió",
+        "nosotros": "entendimos",
+        "vosotros": "entendisteis",
+        "ellos": "entendieron"
+      },
+      "Imperfecto": {
+        "yo": "entendía",
+        "tú": "entendías",
+        "él / ella": "entendía",
+        "nosotros": "entendíamos",
+        "vosotros": "entendíais",
+        "ellos": "entendían"
+      },
+      "Futuro simple": {
+        "yo": "entenderé",
+        "tú": "entenderás",
+        "él / ella": "entenderá",
+        "nosotros": "entenderemos",
+        "vosotros": "entenderéis",
+        "ellos": "entenderán"
+      },
+      "Condicional": {
+        "yo": "entendería",
+        "tú": "entenderías",
+        "él / ella": "entendería",
+        "nosotros": "entenderíamos",
+        "vosotros": "entenderíais",
+        "ellos": "entenderían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "entienda",
+        "tú": "entiendas",
+        "él / ella": "entienda",
+        "nosotros": "entendamos",
+        "vosotros": "entendáis",
+        "ellos": "entiendan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "entiende",
+        "él / ella": "entienda",
+        "nosotros": "entendamos",
+        "vosotros": "entended",
+        "ellos": "entiendan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo entiendo la regla cuando veo varios ejemplos.",
+        "ru": "Я понимаю правило, когда вижу несколько примеров."
+      },
+      "tú": {
+        "es": "Tú entendiste el problema después de la segunda explicación.",
+        "ru": "Ты понял(а) проблему после второго объяснения."
+      },
+      "él / ella": {
+        "es": "Ella entendía casi todo, pero le faltaba vocabulario.",
+        "ru": "Она понимала почти всё, но ей не хватало словарного запаса."
+      },
+      "nosotros": {
+        "es": "Nosotros entendemos mejor cuando practicamos con frases reales.",
+        "ru": "Мы понимаем лучше, когда практикуемся с реальными фразами."
+      },
+      "vosotros": {
+        "es": "Vosotros entendisteis la diferencia entre los dos tiempos.",
+        "ru": "Вы поняли разницу между двумя временами."
+      },
+      "ellos": {
+        "es": "Ellos entendían las instrucciones porque estaban bien escritas.",
+        "ru": "Они понимали инструкции, потому что они были хорошо написаны."
+      }
     }
   },
   {
@@ -420,15 +2229,88 @@
     "translation": "приносить",
     "irregular": true,
     "forms": {
-      "Presente": "traigo",
-      "Pretérito indefinido": "traje",
-      "Imperfecto": "traía",
-      "Futuro simple": "traeré",
-      "Condicional": "traería",
-      "Presente de subjuntivo": "traiga",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo traigo los originales por si los piden en la oficina.",
-      "Перевод примера": "Я приношу оригиналы на случай, если их попросят в офисе."
+      "Presente": {
+        "yo": "traigo",
+        "tú": "traes",
+        "él / ella": "trae",
+        "nosotros": "traemos",
+        "vosotros": "traéis",
+        "ellos": "traen"
+      },
+      "Pretérito indefinido": {
+        "yo": "traje",
+        "tú": "trajiste",
+        "él / ella": "trajo",
+        "nosotros": "trajimos",
+        "vosotros": "trajisteis",
+        "ellos": "trajeron"
+      },
+      "Imperfecto": {
+        "yo": "traía",
+        "tú": "traías",
+        "él / ella": "traía",
+        "nosotros": "traíamos",
+        "vosotros": "traíais",
+        "ellos": "traían"
+      },
+      "Futuro simple": {
+        "yo": "traeré",
+        "tú": "traerás",
+        "él / ella": "traerá",
+        "nosotros": "traeremos",
+        "vosotros": "traeréis",
+        "ellos": "traerán"
+      },
+      "Condicional": {
+        "yo": "traería",
+        "tú": "traerías",
+        "él / ella": "traería",
+        "nosotros": "traeríamos",
+        "vosotros": "traeríais",
+        "ellos": "traerían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "traiga",
+        "tú": "traigas",
+        "él / ella": "traiga",
+        "nosotros": "traigamos",
+        "vosotros": "traigáis",
+        "ellos": "traigan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "trae",
+        "él / ella": "traiga",
+        "nosotros": "traigamos",
+        "vosotros": "traed",
+        "ellos": "traigan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo traigo los originales por si los piden en la oficina.",
+        "ru": "Я приношу оригиналы на случай, если их попросят в офисе."
+      },
+      "tú": {
+        "es": "Tú trajiste todos los documentos menos el pasaporte.",
+        "ru": "Ты принёс(ла) все документы, кроме паспорта."
+      },
+      "él / ella": {
+        "es": "Ella traía comida casera cuando visitaba a sus padres.",
+        "ru": "Она приносила домашнюю еду, когда навещала родителей."
+      },
+      "nosotros": {
+        "es": "Nosotros traemos copias adicionales para evitar problemas.",
+        "ru": "Мы приносим дополнительные копии, чтобы избежать проблем."
+      },
+      "vosotros": {
+        "es": "Vosotros trajisteis una carpeta muy bien organizada.",
+        "ru": "Вы принесли очень хорошо организованную папку."
+      },
+      "ellos": {
+        "es": "Ellos traían regalos pequeños cada vez que venían.",
+        "ru": "Они приносили маленькие подарки каждый раз, когда приходили."
+      }
     }
   },
   {
@@ -436,15 +2318,88 @@
     "translation": "учить / изучать",
     "irregular": false,
     "forms": {
-      "Presente": "aprendo",
-      "Pretérito indefinido": "aprendí",
-      "Imperfecto": "aprendía",
-      "Futuro simple": "aprenderé",
-      "Condicional": "aprendería",
-      "Presente de subjuntivo": "aprenda",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo aprendo mejor cuando escribo mis propios ejemplos.",
-      "Перевод примера": "Я лучше учусь, когда пишу собственные примеры."
+      "Presente": {
+        "yo": "aprendo",
+        "tú": "aprendes",
+        "él / ella": "aprende",
+        "nosotros": "aprendemos",
+        "vosotros": "aprendéis",
+        "ellos": "aprenden"
+      },
+      "Pretérito indefinido": {
+        "yo": "aprendí",
+        "tú": "aprendiste",
+        "él / ella": "aprendió",
+        "nosotros": "aprendimos",
+        "vosotros": "aprendisteis",
+        "ellos": "aprendieron"
+      },
+      "Imperfecto": {
+        "yo": "aprendía",
+        "tú": "aprendías",
+        "él / ella": "aprendía",
+        "nosotros": "aprendíamos",
+        "vosotros": "aprendíais",
+        "ellos": "aprendían"
+      },
+      "Futuro simple": {
+        "yo": "aprenderé",
+        "tú": "aprenderás",
+        "él / ella": "aprenderá",
+        "nosotros": "aprenderemos",
+        "vosotros": "aprenderéis",
+        "ellos": "aprenderán"
+      },
+      "Condicional": {
+        "yo": "aprendería",
+        "tú": "aprenderías",
+        "él / ella": "aprendería",
+        "nosotros": "aprenderíamos",
+        "vosotros": "aprenderíais",
+        "ellos": "aprenderían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "aprenda",
+        "tú": "aprendas",
+        "él / ella": "aprenda",
+        "nosotros": "aprendamos",
+        "vosotros": "aprendáis",
+        "ellos": "aprendan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "aprende",
+        "él / ella": "aprenda",
+        "nosotros": "aprendamos",
+        "vosotros": "aprended",
+        "ellos": "aprendan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo aprendo mejor cuando escribo mis propios ejemplos.",
+        "ru": "Я лучше учусь, когда пишу собственные примеры."
+      },
+      "tú": {
+        "es": "Tú aprendiste muchas palabras nuevas esta semana.",
+        "ru": "Ты выучил(а) много новых слов на этой неделе."
+      },
+      "él / ella": {
+        "es": "Ella aprendía español escuchando conversaciones reales.",
+        "ru": "Она учила испанский, слушая реальные разговоры."
+      },
+      "nosotros": {
+        "es": "Nosotros aprendemos los verbos poco a poco, pero sin errores.",
+        "ru": "Мы учим глаголы постепенно, но без ошибок."
+      },
+      "vosotros": {
+        "es": "Vosotros aprendisteis a usar el pasado en una sola clase.",
+        "ru": "Вы научились использовать прошедшее время за один урок."
+      },
+      "ellos": {
+        "es": "Ellos aprendían rápido porque practicaban todos los días.",
+        "ru": "Они быстро учились, потому что практиковались каждый день."
+      }
     }
   },
   {
@@ -452,15 +2407,88 @@
     "translation": "жить",
     "irregular": false,
     "forms": {
-      "Presente": "vivo",
-      "Pretérito indefinido": "viví",
-      "Imperfecto": "vivía",
-      "Futuro simple": "viviré",
-      "Condicional": "viviría",
-      "Presente de subjuntivo": "viva",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo vivo cerca de la escuela de mi hija.",
-      "Перевод примера": "Я живу рядом со школой моей дочери."
+      "Presente": {
+        "yo": "vivo",
+        "tú": "vives",
+        "él / ella": "vive",
+        "nosotros": "vivimos",
+        "vosotros": "vivís",
+        "ellos": "viven"
+      },
+      "Pretérito indefinido": {
+        "yo": "viví",
+        "tú": "viviste",
+        "él / ella": "vivió",
+        "nosotros": "vivimos",
+        "vosotros": "vivisteis",
+        "ellos": "vivieron"
+      },
+      "Imperfecto": {
+        "yo": "vivía",
+        "tú": "vivías",
+        "él / ella": "vivía",
+        "nosotros": "vivíamos",
+        "vosotros": "vivíais",
+        "ellos": "vivían"
+      },
+      "Futuro simple": {
+        "yo": "viviré",
+        "tú": "vivirás",
+        "él / ella": "vivirá",
+        "nosotros": "viviremos",
+        "vosotros": "viviréis",
+        "ellos": "vivirán"
+      },
+      "Condicional": {
+        "yo": "viviría",
+        "tú": "vivirías",
+        "él / ella": "viviría",
+        "nosotros": "viviríamos",
+        "vosotros": "viviríais",
+        "ellos": "vivirían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "viva",
+        "tú": "vivas",
+        "él / ella": "viva",
+        "nosotros": "vivamos",
+        "vosotros": "viváis",
+        "ellos": "vivan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "vive",
+        "él / ella": "viva",
+        "nosotros": "vivamos",
+        "vosotros": "vivid",
+        "ellos": "vivan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo vivo cerca de la escuela de mi hija.",
+        "ru": "Я живу рядом со школой моей дочери."
+      },
+      "tú": {
+        "es": "Tú viviste en otra ciudad antes de mudarte aquí.",
+        "ru": "Ты жил(а) в другом городе до переезда сюда."
+      },
+      "él / ella": {
+        "es": "Ella vivía con sus abuelos cuando era pequeña.",
+        "ru": "Она жила с бабушкой и дедушкой, когда была маленькой."
+      },
+      "nosotros": {
+        "es": "Nosotros vivimos en Tenerife y aprendemos español cada día.",
+        "ru": "Мы живём на Тенерифе и учим испанский каждый день."
+      },
+      "vosotros": {
+        "es": "Vosotros vivisteis una experiencia difícil, pero útil.",
+        "ru": "Вы пережили трудный, но полезный опыт."
+      },
+      "ellos": {
+        "es": "Ellos vivían en un barrio tranquilo antes de cambiar de casa.",
+        "ru": "Они жили в спокойном районе до смены дома."
+      }
     }
   },
   {
@@ -468,15 +2496,88 @@
     "translation": "говорить / сказать",
     "irregular": true,
     "forms": {
-      "Presente": "digo",
-      "Pretérito indefinido": "dije",
-      "Imperfecto": "decía",
-      "Futuro simple": "diré",
-      "Condicional": "diría",
-      "Presente de subjuntivo": "diga",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo digo la verdad aunque sea incómoda.",
-      "Перевод примера": "Я говорю правду, даже если она неудобная."
+      "Presente": {
+        "yo": "digo",
+        "tú": "dices",
+        "él / ella": "dice",
+        "nosotros": "decimos",
+        "vosotros": "decís",
+        "ellos": "dicen"
+      },
+      "Pretérito indefinido": {
+        "yo": "dije",
+        "tú": "dijiste",
+        "él / ella": "dijo",
+        "nosotros": "dijimos",
+        "vosotros": "dijisteis",
+        "ellos": "dijeron"
+      },
+      "Imperfecto": {
+        "yo": "decía",
+        "tú": "decías",
+        "él / ella": "decía",
+        "nosotros": "decíamos",
+        "vosotros": "decíais",
+        "ellos": "decían"
+      },
+      "Futuro simple": {
+        "yo": "diré",
+        "tú": "dirás",
+        "él / ella": "dirá",
+        "nosotros": "diremos",
+        "vosotros": "diréis",
+        "ellos": "dirán"
+      },
+      "Condicional": {
+        "yo": "diría",
+        "tú": "dirías",
+        "él / ella": "diría",
+        "nosotros": "diríamos",
+        "vosotros": "diríais",
+        "ellos": "dirían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "diga",
+        "tú": "digas",
+        "él / ella": "diga",
+        "nosotros": "digamos",
+        "vosotros": "digáis",
+        "ellos": "digan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "di",
+        "él / ella": "diga",
+        "nosotros": "digamos",
+        "vosotros": "decid",
+        "ellos": "digan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo digo la verdad aunque sea incómoda.",
+        "ru": "Я говорю правду, даже если она неудобная."
+      },
+      "tú": {
+        "es": "Tú dijiste exactamente lo que pensabas.",
+        "ru": "Ты сказал(а) именно то, что думал(а)."
+      },
+      "él / ella": {
+        "es": "Ella decía que aprender idiomas cambia la forma de pensar.",
+        "ru": "Она говорила, что изучение языков меняет способ мышления."
+      },
+      "nosotros": {
+        "es": "Nosotros decimos las respuestas en voz alta para practicar.",
+        "ru": "Мы произносим ответы вслух, чтобы практиковаться."
+      },
+      "vosotros": {
+        "es": "Vosotros dijisteis que la cita era a las nueve.",
+        "ru": "Вы сказали, что запись была на девять."
+      },
+      "ellos": {
+        "es": "Ellos decían siempre gracias al salir de la oficina.",
+        "ru": "Они всегда говорили спасибо, выходя из офиса."
+      }
     }
   },
   {
@@ -484,15 +2585,88 @@
     "translation": "писать",
     "irregular": false,
     "forms": {
-      "Presente": "escribo",
-      "Pretérito indefinido": "escribí",
-      "Imperfecto": "escribía",
-      "Futuro simple": "escribiré",
-      "Condicional": "escribiría",
-      "Presente de subjuntivo": "escriba",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo escribo frases largas para recordar mejor las formas.",
-      "Перевод примера": "Я пишу длинные фразы, чтобы лучше запоминать формы."
+      "Presente": {
+        "yo": "escribo",
+        "tú": "escribes",
+        "él / ella": "escribe",
+        "nosotros": "escribimos",
+        "vosotros": "escribís",
+        "ellos": "escriben"
+      },
+      "Pretérito indefinido": {
+        "yo": "escribí",
+        "tú": "escribiste",
+        "él / ella": "escribió",
+        "nosotros": "escribimos",
+        "vosotros": "escribisteis",
+        "ellos": "escribieron"
+      },
+      "Imperfecto": {
+        "yo": "escribía",
+        "tú": "escribías",
+        "él / ella": "escribía",
+        "nosotros": "escribíamos",
+        "vosotros": "escribíais",
+        "ellos": "escribían"
+      },
+      "Futuro simple": {
+        "yo": "escribiré",
+        "tú": "escribirás",
+        "él / ella": "escribirá",
+        "nosotros": "escribiremos",
+        "vosotros": "escribiréis",
+        "ellos": "escribirán"
+      },
+      "Condicional": {
+        "yo": "escribiría",
+        "tú": "escribirías",
+        "él / ella": "escribiría",
+        "nosotros": "escribiríamos",
+        "vosotros": "escribiríais",
+        "ellos": "escribirían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "escriba",
+        "tú": "escribas",
+        "él / ella": "escriba",
+        "nosotros": "escribamos",
+        "vosotros": "escribáis",
+        "ellos": "escriban"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "escribe",
+        "él / ella": "escriba",
+        "nosotros": "escribamos",
+        "vosotros": "escribid",
+        "ellos": "escriban"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo escribo frases largas para recordar mejor las formas.",
+        "ru": "Я пишу длинные фразы, чтобы лучше запоминать формы."
+      },
+      "tú": {
+        "es": "Tú escribiste tu nombre en el lugar equivocado.",
+        "ru": "Ты написал(а) своё имя не в том месте."
+      },
+      "él / ella": {
+        "es": "Ella escribía cartas a su familia cuando vivía lejos.",
+        "ru": "Она писала письма своей семье, когда жила далеко."
+      },
+      "nosotros": {
+        "es": "Nosotros escribimos los ejemplos en una tabla separada.",
+        "ru": "Мы пишем примеры в отдельной таблице."
+      },
+      "vosotros": {
+        "es": "Vosotros escribisteis una explicación muy clara.",
+        "ru": "Вы написали очень ясное объяснение."
+      },
+      "ellos": {
+        "es": "Ellos escribían notas pequeñas para no olvidar nada.",
+        "ru": "Они писали маленькие заметки, чтобы ничего не забыть."
+      }
     }
   },
   {
@@ -500,15 +2674,88 @@
     "translation": "слышать",
     "irregular": true,
     "forms": {
-      "Presente": "oigo",
-      "Pretérito indefinido": "oí",
-      "Imperfecto": "oía",
-      "Futuro simple": "oiré",
-      "Condicional": "oiría",
-      "Presente de subjuntivo": "oiga",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo oigo ruido en la calle cuando abro la ventana.",
-      "Перевод примера": "Я слышу шум на улице, когда открываю окно."
+      "Presente": {
+        "yo": "oigo",
+        "tú": "oyes",
+        "él / ella": "oye",
+        "nosotros": "oímos",
+        "vosotros": "oís",
+        "ellos": "oyen"
+      },
+      "Pretérito indefinido": {
+        "yo": "oí",
+        "tú": "oíste",
+        "él / ella": "oyó",
+        "nosotros": "oímos",
+        "vosotros": "oísteis",
+        "ellos": "oyeron"
+      },
+      "Imperfecto": {
+        "yo": "oía",
+        "tú": "oías",
+        "él / ella": "oía",
+        "nosotros": "oíamos",
+        "vosotros": "oíais",
+        "ellos": "oían"
+      },
+      "Futuro simple": {
+        "yo": "oiré",
+        "tú": "oirás",
+        "él / ella": "oirá",
+        "nosotros": "oiremos",
+        "vosotros": "oiréis",
+        "ellos": "oirán"
+      },
+      "Condicional": {
+        "yo": "oiría",
+        "tú": "oirías",
+        "él / ella": "oiría",
+        "nosotros": "oiríamos",
+        "vosotros": "oiríais",
+        "ellos": "oirían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "oiga",
+        "tú": "oigas",
+        "él / ella": "oiga",
+        "nosotros": "oigamos",
+        "vosotros": "oigáis",
+        "ellos": "oigan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "oye",
+        "él / ella": "oiga",
+        "nosotros": "oigamos",
+        "vosotros": "oíd",
+        "ellos": "oigan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo oigo ruido en la calle cuando abro la ventana.",
+        "ru": "Я слышу шум на улице, когда открываю окно."
+      },
+      "tú": {
+        "es": "Tú oíste la alarma, pero no te levantaste.",
+        "ru": "Ты услышал(а) будильник, но не встал(а)."
+      },
+      "él / ella": {
+        "es": "Ella oía la conversación desde la cocina.",
+        "ru": "Она слышала разговор из кухни."
+      },
+      "nosotros": {
+        "es": "Nosotros oímos mejor cuando la clase está en silencio.",
+        "ru": "Мы слышим лучше, когда в классе тихо."
+      },
+      "vosotros": {
+        "es": "Vosotros oísteis las instrucciones antes de empezar.",
+        "ru": "Вы услышали инструкции перед началом."
+      },
+      "ellos": {
+        "es": "Ellos oían música mientras ordenaban la casa.",
+        "ru": "Они слушали музыку, пока убирали дом."
+      }
     }
   },
   {
@@ -516,15 +2763,88 @@
     "translation": "открывать",
     "irregular": false,
     "forms": {
-      "Presente": "abro",
-      "Pretérito indefinido": "abrí",
-      "Imperfecto": "abría",
-      "Futuro simple": "abriré",
-      "Condicional": "abriría",
-      "Presente de subjuntivo": "abra",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo abro el archivo para comprobar la última versión.",
-      "Перевод примера": "Я открываю файл, чтобы проверить последнюю версию."
+      "Presente": {
+        "yo": "abro",
+        "tú": "abres",
+        "él / ella": "abre",
+        "nosotros": "abrimos",
+        "vosotros": "abrís",
+        "ellos": "abren"
+      },
+      "Pretérito indefinido": {
+        "yo": "abrí",
+        "tú": "abriste",
+        "él / ella": "abrió",
+        "nosotros": "abrimos",
+        "vosotros": "abristeis",
+        "ellos": "abrieron"
+      },
+      "Imperfecto": {
+        "yo": "abría",
+        "tú": "abrías",
+        "él / ella": "abría",
+        "nosotros": "abríamos",
+        "vosotros": "abríais",
+        "ellos": "abrían"
+      },
+      "Futuro simple": {
+        "yo": "abriré",
+        "tú": "abrirás",
+        "él / ella": "abrirá",
+        "nosotros": "abriremos",
+        "vosotros": "abriréis",
+        "ellos": "abrirán"
+      },
+      "Condicional": {
+        "yo": "abriría",
+        "tú": "abrirías",
+        "él / ella": "abriría",
+        "nosotros": "abriríamos",
+        "vosotros": "abriríais",
+        "ellos": "abrirían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "abra",
+        "tú": "abras",
+        "él / ella": "abra",
+        "nosotros": "abramos",
+        "vosotros": "abráis",
+        "ellos": "abran"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "abre",
+        "él / ella": "abra",
+        "nosotros": "abramos",
+        "vosotros": "abrid",
+        "ellos": "abran"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo abro el archivo para comprobar la última versión.",
+        "ru": "Я открываю файл, чтобы проверить последнюю версию."
+      },
+      "tú": {
+        "es": "Tú abriste la puerta antes de mirar quién llamaba.",
+        "ru": "Ты открыл(а) дверь до того, как посмотрел(а), кто звонил."
+      },
+      "él / ella": {
+        "es": "Ella abría la tienda cada mañana a la misma hora.",
+        "ru": "Она открывала магазин каждое утро в одно и то же время."
+      },
+      "nosotros": {
+        "es": "Nosotros abrimos una carpeta nueva para guardar los documentos.",
+        "ru": "Мы открываем новую папку, чтобы сохранить документы."
+      },
+      "vosotros": {
+        "es": "Vosotros abristeis la ventana porque hacía mucho calor.",
+        "ru": "Вы открыли окно, потому что было очень жарко."
+      },
+      "ellos": {
+        "es": "Ellos abrían los regalos después de cenar.",
+        "ru": "Они открывали подарки после ужина."
+      }
     }
   },
   {
@@ -532,15 +2852,88 @@
     "translation": "спать",
     "irregular": true,
     "forms": {
-      "Presente": "duermo",
-      "Pretérito indefinido": "dormí",
-      "Imperfecto": "dormía",
-      "Futuro simple": "dormiré",
-      "Condicional": "dormiría",
-      "Presente de subjuntivo": "duerma",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo duermo poco cuando tengo una cita importante al día siguiente.",
-      "Перевод примера": "Я мало сплю, когда на следующий день у меня важная запись."
+      "Presente": {
+        "yo": "duermo",
+        "tú": "duermes",
+        "él / ella": "duerme",
+        "nosotros": "dormimos",
+        "vosotros": "dormís",
+        "ellos": "duermen"
+      },
+      "Pretérito indefinido": {
+        "yo": "dormí",
+        "tú": "dormiste",
+        "él / ella": "durmió",
+        "nosotros": "dormimos",
+        "vosotros": "dormisteis",
+        "ellos": "durmieron"
+      },
+      "Imperfecto": {
+        "yo": "dormía",
+        "tú": "dormías",
+        "él / ella": "dormía",
+        "nosotros": "dormíamos",
+        "vosotros": "dormíais",
+        "ellos": "dormían"
+      },
+      "Futuro simple": {
+        "yo": "dormiré",
+        "tú": "dormirás",
+        "él / ella": "dormirá",
+        "nosotros": "dormiremos",
+        "vosotros": "dormiréis",
+        "ellos": "dormirán"
+      },
+      "Condicional": {
+        "yo": "dormiría",
+        "tú": "dormirías",
+        "él / ella": "dormiría",
+        "nosotros": "dormiríamos",
+        "vosotros": "dormiríais",
+        "ellos": "dormirían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "duerma",
+        "tú": "duermas",
+        "él / ella": "duerma",
+        "nosotros": "durmamos",
+        "vosotros": "durmáis",
+        "ellos": "duerman"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "duerme",
+        "él / ella": "duerma",
+        "nosotros": "durmamos",
+        "vosotros": "dormid",
+        "ellos": "duerman"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo duermo poco cuando tengo una cita importante al día siguiente.",
+        "ru": "Я мало сплю, когда на следующий день у меня важная запись."
+      },
+      "tú": {
+        "es": "Tú dormiste mal porque estabas preocupado por el trámite.",
+        "ru": "Ты плохо спал(а), потому что переживал(а) из-за процедуры."
+      },
+      "él / ella": {
+        "es": "Ella dormía tranquila cuando todo estaba preparado.",
+        "ru": "Она спала спокойно, когда всё было подготовлено."
+      },
+      "nosotros": {
+        "es": "Nosotros dormimos mejor después de resolver el problema.",
+        "ru": "Мы спим лучше после решения проблемы."
+      },
+      "vosotros": {
+        "es": "Vosotros dormisteis en casa de unos amigos durante el viaje.",
+        "ru": "Вы спали у друзей во время поездки."
+      },
+      "ellos": {
+        "es": "Ellos dormían temprano cuando tenían que trabajar al día siguiente.",
+        "ru": "Они ложились спать рано, когда на следующий день должны были работать."
+      }
     }
   },
   {
@@ -548,15 +2941,88 @@
     "translation": "приходить / приезжать",
     "irregular": true,
     "forms": {
-      "Presente": "vengo",
-      "Pretérito indefinido": "vine",
-      "Imperfecto": "venía",
-      "Futuro simple": "vendré",
-      "Condicional": "vendría",
-      "Presente de subjuntivo": "venga",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo vengo a la oficina con todos los documentos preparados.",
-      "Перевод примера": "Я прихожу в офис со всеми подготовленными документами."
+      "Presente": {
+        "yo": "vengo",
+        "tú": "vienes",
+        "él / ella": "viene",
+        "nosotros": "venimos",
+        "vosotros": "venís",
+        "ellos": "vienen"
+      },
+      "Pretérito indefinido": {
+        "yo": "vine",
+        "tú": "viniste",
+        "él / ella": "vino",
+        "nosotros": "vinimos",
+        "vosotros": "vinisteis",
+        "ellos": "vinieron"
+      },
+      "Imperfecto": {
+        "yo": "venía",
+        "tú": "venías",
+        "él / ella": "venía",
+        "nosotros": "veníamos",
+        "vosotros": "veníais",
+        "ellos": "venían"
+      },
+      "Futuro simple": {
+        "yo": "vendré",
+        "tú": "vendrás",
+        "él / ella": "vendrá",
+        "nosotros": "vendremos",
+        "vosotros": "vendréis",
+        "ellos": "vendrán"
+      },
+      "Condicional": {
+        "yo": "vendría",
+        "tú": "vendrías",
+        "él / ella": "vendría",
+        "nosotros": "vendríamos",
+        "vosotros": "vendríais",
+        "ellos": "vendrían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "venga",
+        "tú": "vengas",
+        "él / ella": "venga",
+        "nosotros": "vengamos",
+        "vosotros": "vengáis",
+        "ellos": "vengan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "ven",
+        "él / ella": "venga",
+        "nosotros": "vengamos",
+        "vosotros": "venid",
+        "ellos": "vengan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo vengo a la oficina con todos los documentos preparados.",
+        "ru": "Я прихожу в офис со всеми подготовленными документами."
+      },
+      "tú": {
+        "es": "Tú viniste antes de la hora y tuviste que esperar.",
+        "ru": "Ты пришёл(ла) раньше времени, и тебе пришлось ждать."
+      },
+      "él / ella": {
+        "es": "Ella venía a clase aunque estaba cansada después del trabajo.",
+        "ru": "Она приходила на занятия, хотя уставала после работы."
+      },
+      "nosotros": {
+        "es": "Nosotros venimos juntos porque tenemos la misma cita.",
+        "ru": "Мы приходим вместе, потому что у нас одна и та же запись."
+      },
+      "vosotros": {
+        "es": "Vosotros vinisteis en coche porque el autobús llegó tarde.",
+        "ru": "Вы приехали на машине, потому что автобус опоздал."
+      },
+      "ellos": {
+        "es": "Ellos venían todos los veranos para visitar a la familia.",
+        "ru": "Они приезжали каждое лето, чтобы навестить семью."
+      }
     }
   },
   {
@@ -564,15 +3030,88 @@
     "translation": "повторять",
     "irregular": true,
     "forms": {
-      "Presente": "repito",
-      "Pretérito indefinido": "repetí",
-      "Imperfecto": "repetía",
-      "Futuro simple": "repetiré",
-      "Condicional": "repetiría",
-      "Presente de subjuntivo": "repita",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo repito la frase hasta pronunciarla correctamente.",
-      "Перевод примера": "Я повторяю фразу, пока не произнесу её правильно."
+      "Presente": {
+        "yo": "repito",
+        "tú": "repites",
+        "él / ella": "repite",
+        "nosotros": "repetimos",
+        "vosotros": "repetís",
+        "ellos": "repiten"
+      },
+      "Pretérito indefinido": {
+        "yo": "repetí",
+        "tú": "repetiste",
+        "él / ella": "repitió",
+        "nosotros": "repetimos",
+        "vosotros": "repetisteis",
+        "ellos": "repitieron"
+      },
+      "Imperfecto": {
+        "yo": "repetía",
+        "tú": "repetías",
+        "él / ella": "repetía",
+        "nosotros": "repetíamos",
+        "vosotros": "repetíais",
+        "ellos": "repetían"
+      },
+      "Futuro simple": {
+        "yo": "repetiré",
+        "tú": "repetirás",
+        "él / ella": "repetirá",
+        "nosotros": "repetiremos",
+        "vosotros": "repetiréis",
+        "ellos": "repetirán"
+      },
+      "Condicional": {
+        "yo": "repetiría",
+        "tú": "repetirías",
+        "él / ella": "repetiría",
+        "nosotros": "repetiríamos",
+        "vosotros": "repetiríais",
+        "ellos": "repetirían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "repita",
+        "tú": "repitas",
+        "él / ella": "repita",
+        "nosotros": "repitamos",
+        "vosotros": "repitáis",
+        "ellos": "repitan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "repite",
+        "él / ella": "repita",
+        "nosotros": "repitamos",
+        "vosotros": "repetid",
+        "ellos": "repitan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo repito la frase hasta pronunciarla correctamente.",
+        "ru": "Я повторяю фразу, пока не произнесу её правильно."
+      },
+      "tú": {
+        "es": "Tú repetiste el ejercicio porque cometiste varios errores.",
+        "ru": "Ты повторил(а) упражнение, потому что допустил(а) несколько ошибок."
+      },
+      "él / ella": {
+        "es": "Ella repetía las palabras nuevas antes de dormir.",
+        "ru": "Она повторяла новые слова перед сном."
+      },
+      "nosotros": {
+        "es": "Nosotros repetimos los verbos para memorizarlos mejor.",
+        "ru": "Мы повторяем глаголы, чтобы лучше их запомнить."
+      },
+      "vosotros": {
+        "es": "Vosotros repetisteis la misma pregunta tres veces.",
+        "ru": "Вы повторили один и тот же вопрос три раза."
+      },
+      "ellos": {
+        "es": "Ellos repetían las respuestas en voz baja durante el examen.",
+        "ru": "Они повторяли ответы тихим голосом во время экзамена."
+      }
     }
   },
   {
@@ -580,15 +3119,88 @@
     "translation": "класть / ставить",
     "irregular": true,
     "forms": {
-      "Presente": "pongo",
-      "Pretérito indefinido": "puse",
-      "Imperfecto": "ponía",
-      "Futuro simple": "pondré",
-      "Condicional": "pondría",
-      "Presente de subjuntivo": "ponga",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo pongo las llaves sobre la mesa para no olvidarlas.",
-      "Перевод примера": "Я кладу ключи на стол, чтобы не забыть их."
+      "Presente": {
+        "yo": "pongo",
+        "tú": "pones",
+        "él / ella": "pone",
+        "nosotros": "ponemos",
+        "vosotros": "ponéis",
+        "ellos": "ponen"
+      },
+      "Pretérito indefinido": {
+        "yo": "puse",
+        "tú": "pusiste",
+        "él / ella": "puso",
+        "nosotros": "pusimos",
+        "vosotros": "pusisteis",
+        "ellos": "pusieron"
+      },
+      "Imperfecto": {
+        "yo": "ponía",
+        "tú": "ponías",
+        "él / ella": "ponía",
+        "nosotros": "poníamos",
+        "vosotros": "poníais",
+        "ellos": "ponían"
+      },
+      "Futuro simple": {
+        "yo": "pondré",
+        "tú": "pondrás",
+        "él / ella": "pondrá",
+        "nosotros": "pondremos",
+        "vosotros": "pondréis",
+        "ellos": "pondrán"
+      },
+      "Condicional": {
+        "yo": "pondría",
+        "tú": "pondrías",
+        "él / ella": "pondría",
+        "nosotros": "pondríamos",
+        "vosotros": "pondríais",
+        "ellos": "pondrían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "ponga",
+        "tú": "pongas",
+        "él / ella": "ponga",
+        "nosotros": "pongamos",
+        "vosotros": "pongáis",
+        "ellos": "pongan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "pon",
+        "él / ella": "ponga",
+        "nosotros": "pongamos",
+        "vosotros": "poned",
+        "ellos": "pongan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo pongo las llaves sobre la mesa para no olvidarlas.",
+        "ru": "Я кладу ключи на стол, чтобы не забыть их."
+      },
+      "tú": {
+        "es": "Tú pusiste el documento en la carpeta equivocada.",
+        "ru": "Ты положил(а) документ не в ту папку."
+      },
+      "él / ella": {
+        "es": "Ella ponía música suave mientras estudiaba por la noche.",
+        "ru": "Она включала спокойную музыку, пока училась вечером."
+      },
+      "nosotros": {
+        "es": "Nosotros pondremos los libros en la estantería nueva.",
+        "ru": "Мы поставим книги на новую полку."
+      },
+      "vosotros": {
+        "es": "Vosotros pondríais más atención si el tema fuera más difícil.",
+        "ru": "Вы уделили бы больше внимания, если бы тема была сложнее."
+      },
+      "ellos": {
+        "es": "Ellos quieren que pongan la mesa antes de cenar.",
+        "ru": "Они хотят, чтобы накрыли на стол перед ужином."
+      }
     }
   },
   {
@@ -596,15 +3208,88 @@
     "translation": "помещаться",
     "irregular": true,
     "forms": {
-      "Presente": "quepo",
-      "Pretérito indefinido": "cupe",
-      "Imperfecto": "cabía",
-      "Futuro simple": "cabré",
-      "Condicional": "cabría",
-      "Presente de subjuntivo": "quepa",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo quepo en este asiento, pero es bastante incómodo.",
-      "Перевод примера": "Я помещаюсь на этом сиденье, но оно довольно неудобное."
+      "Presente": {
+        "yo": "quepo",
+        "tú": "cabes",
+        "él / ella": "cabe",
+        "nosotros": "cabemos",
+        "vosotros": "cabéis",
+        "ellos": "caben"
+      },
+      "Pretérito indefinido": {
+        "yo": "cupe",
+        "tú": "cupiste",
+        "él / ella": "cupo",
+        "nosotros": "cupimos",
+        "vosotros": "cupisteis",
+        "ellos": "cupieron"
+      },
+      "Imperfecto": {
+        "yo": "cabía",
+        "tú": "cabías",
+        "él / ella": "cabía",
+        "nosotros": "cabíamos",
+        "vosotros": "cabíais",
+        "ellos": "cabían"
+      },
+      "Futuro simple": {
+        "yo": "cabré",
+        "tú": "cabrás",
+        "él / ella": "cabrá",
+        "nosotros": "cabremos",
+        "vosotros": "cabréis",
+        "ellos": "cabrán"
+      },
+      "Condicional": {
+        "yo": "cabría",
+        "tú": "cabrías",
+        "él / ella": "cabría",
+        "nosotros": "cabríamos",
+        "vosotros": "cabríais",
+        "ellos": "cabrían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "quepa",
+        "tú": "quepas",
+        "él / ella": "quepa",
+        "nosotros": "quepamos",
+        "vosotros": "quepáis",
+        "ellos": "quepan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "cabe",
+        "él / ella": "quepa",
+        "nosotros": "quepamos",
+        "vosotros": "cabed",
+        "ellos": "quepan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo quepo en este asiento, pero es bastante incómodo.",
+        "ru": "Я помещаюсь на этом сиденье, но оно довольно неудобное."
+      },
+      "tú": {
+        "es": "Tú cupiste en el coche con todas las maletas.",
+        "ru": "Ты поместился/поместилась в машину со всеми чемоданами."
+      },
+      "él / ella": {
+        "es": "La caja cabía perfectamente debajo de la cama.",
+        "ru": "Коробка идеально помещалась под кроватью."
+      },
+      "nosotros": {
+        "es": "Nosotros cabremos en la sala si llegan pocas personas.",
+        "ru": "Мы поместимся в зале, если придёт мало людей."
+      },
+      "vosotros": {
+        "es": "Vosotros cabríais mejor si quitaran esas sillas.",
+        "ru": "Вы поместились бы лучше, если бы убрали эти стулья."
+      },
+      "ellos": {
+        "es": "Es importante que ellos quepan cómodamente en el coche.",
+        "ru": "Важно, чтобы они удобно поместились в машине."
+      }
     }
   },
   {
@@ -612,15 +3297,88 @@
     "translation": "ходить",
     "irregular": true,
     "forms": {
-      "Presente": "ando",
-      "Pretérito indefinido": "anduve",
-      "Imperfecto": "andaba",
-      "Futuro simple": "andaré",
-      "Condicional": "andaría",
-      "Presente de subjuntivo": "ande",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo ando por el parque cuando necesito pensar.",
-      "Перевод примера": "Я гуляю по парку, когда мне нужно подумать."
+      "Presente": {
+        "yo": "ando",
+        "tú": "andas",
+        "él / ella": "anda",
+        "nosotros": "andamos",
+        "vosotros": "andáis",
+        "ellos": "andan"
+      },
+      "Pretérito indefinido": {
+        "yo": "anduve",
+        "tú": "anduviste",
+        "él / ella": "anduvo",
+        "nosotros": "anduvimos",
+        "vosotros": "anduvisteis",
+        "ellos": "anduvieron"
+      },
+      "Imperfecto": {
+        "yo": "andaba",
+        "tú": "andabas",
+        "él / ella": "andaba",
+        "nosotros": "andábamos",
+        "vosotros": "andabais",
+        "ellos": "andaban"
+      },
+      "Futuro simple": {
+        "yo": "andaré",
+        "tú": "andarás",
+        "él / ella": "andará",
+        "nosotros": "andaremos",
+        "vosotros": "andaréis",
+        "ellos": "andarán"
+      },
+      "Condicional": {
+        "yo": "andaría",
+        "tú": "andarías",
+        "él / ella": "andaría",
+        "nosotros": "andaríamos",
+        "vosotros": "andaríais",
+        "ellos": "andarían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "ande",
+        "tú": "andes",
+        "él / ella": "ande",
+        "nosotros": "andemos",
+        "vosotros": "andéis",
+        "ellos": "anden"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "anda",
+        "él / ella": "ande",
+        "nosotros": "andemos",
+        "vosotros": "andad",
+        "ellos": "anden"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo ando por el parque cuando necesito pensar.",
+        "ru": "Я гуляю по парку, когда мне нужно подумать."
+      },
+      "tú": {
+        "es": "Tú anduviste mucho ayer y por eso estás cansado.",
+        "ru": "Ты много ходил(а) вчера, поэтому устал(а)."
+      },
+      "él / ella": {
+        "es": "Él andaba despacio porque le dolía la pierna.",
+        "ru": "Он шёл медленно, потому что у него болела нога."
+      },
+      "nosotros": {
+        "es": "Nosotros andaremos hasta la estación si no llueve.",
+        "ru": "Мы дойдём пешком до станции, если не будет дождя."
+      },
+      "vosotros": {
+        "es": "Vosotros andaríais más si vivierais cerca del centro.",
+        "ru": "Вы ходили бы больше, если бы жили рядом с центром."
+      },
+      "ellos": {
+        "es": "Quieren que ellas anden con cuidado por la montaña.",
+        "ru": "Они хотят, чтобы они осторожно ходили по горам."
+      }
     }
   },
   {
@@ -628,15 +3386,88 @@
     "translation": "быть",
     "irregular": true,
     "forms": {
-      "Presente": "soy",
-      "Pretérito indefinido": "fui",
-      "Imperfecto": "era",
-      "Futuro simple": "seré",
-      "Condicional": "sería",
-      "Presente de subjuntivo": "sea",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo soy responsable de revisar todos los documentos.",
-      "Перевод примера": "Я отвечаю за проверку всех документов."
+      "Presente": {
+        "yo": "soy",
+        "tú": "eres",
+        "él / ella": "es",
+        "nosotros": "somos",
+        "vosotros": "sois",
+        "ellos": "son"
+      },
+      "Pretérito indefinido": {
+        "yo": "fui",
+        "tú": "fuiste",
+        "él / ella": "fue",
+        "nosotros": "fuimos",
+        "vosotros": "fuisteis",
+        "ellos": "fueron"
+      },
+      "Imperfecto": {
+        "yo": "era",
+        "tú": "eras",
+        "él / ella": "era",
+        "nosotros": "éramos",
+        "vosotros": "erais",
+        "ellos": "eran"
+      },
+      "Futuro simple": {
+        "yo": "seré",
+        "tú": "serás",
+        "él / ella": "será",
+        "nosotros": "seremos",
+        "vosotros": "seréis",
+        "ellos": "serán"
+      },
+      "Condicional": {
+        "yo": "sería",
+        "tú": "serías",
+        "él / ella": "sería",
+        "nosotros": "seríamos",
+        "vosotros": "seríais",
+        "ellos": "serían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "sea",
+        "tú": "seas",
+        "él / ella": "sea",
+        "nosotros": "seamos",
+        "vosotros": "seáis",
+        "ellos": "sean"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "sé",
+        "él / ella": "sea",
+        "nosotros": "seamos",
+        "vosotros": "sed",
+        "ellos": "sean"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo soy responsable de revisar todos los documentos.",
+        "ru": "Я отвечаю за проверку всех документов."
+      },
+      "tú": {
+        "es": "Tú fuiste muy paciente durante la espera.",
+        "ru": "Ты был(а) очень терпелив(а) во время ожидания."
+      },
+      "él / ella": {
+        "es": "Ella era más tímida cuando empezó a estudiar español.",
+        "ru": "Она была более застенчивой, когда начала учить испанский."
+      },
+      "nosotros": {
+        "es": "Nosotros seremos puntuales en la próxima cita.",
+        "ru": "Мы будем пунктуальны на следующей встрече."
+      },
+      "vosotros": {
+        "es": "Vosotros seríais buenos profesores con más práctica.",
+        "ru": "Вы были бы хорошими преподавателями с большей практикой."
+      },
+      "ellos": {
+        "es": "Es necesario que ellos sean claros al explicar el problema.",
+        "ru": "Необходимо, чтобы они ясно объяснили проблему."
+      }
     }
   },
   {
@@ -644,15 +3475,88 @@
     "translation": "идти / ехать",
     "irregular": true,
     "forms": {
-      "Presente": "voy",
-      "Pretérito indefinido": "fui",
-      "Imperfecto": "iba",
-      "Futuro simple": "iré",
-      "Condicional": "iría",
-      "Presente de subjuntivo": "vaya",
-      "Imperativo": "—",
-      "Ejemplo español": "Yo voy al centro para hacer unas compras.",
-      "Перевод примера": "Я иду/еду в центр, чтобы сделать покупки."
+      "Presente": {
+        "yo": "voy",
+        "tú": "vas",
+        "él / ella": "va",
+        "nosotros": "vamos",
+        "vosotros": "vais",
+        "ellos": "van"
+      },
+      "Pretérito indefinido": {
+        "yo": "fui",
+        "tú": "fuiste",
+        "él / ella": "fue",
+        "nosotros": "fuimos",
+        "vosotros": "fuisteis",
+        "ellos": "fueron"
+      },
+      "Imperfecto": {
+        "yo": "iba",
+        "tú": "ibas",
+        "él / ella": "iba",
+        "nosotros": "íbamos",
+        "vosotros": "ibais",
+        "ellos": "iban"
+      },
+      "Futuro simple": {
+        "yo": "iré",
+        "tú": "irás",
+        "él / ella": "irá",
+        "nosotros": "iremos",
+        "vosotros": "iréis",
+        "ellos": "irán"
+      },
+      "Condicional": {
+        "yo": "iría",
+        "tú": "irías",
+        "él / ella": "iría",
+        "nosotros": "iríamos",
+        "vosotros": "iríais",
+        "ellos": "irían"
+      },
+      "Presente de subjuntivo": {
+        "yo": "vaya",
+        "tú": "vayas",
+        "él / ella": "vaya",
+        "nosotros": "vayamos",
+        "vosotros": "vayáis",
+        "ellos": "vayan"
+      },
+      "Imperativo": {
+        "yo": "—",
+        "tú": "ve",
+        "él / ella": "vaya",
+        "nosotros": "vayamos",
+        "vosotros": "id",
+        "ellos": "vayan"
+      }
+    },
+    "examples": {
+      "yo": {
+        "es": "Yo voy al centro para hacer unas compras.",
+        "ru": "Я иду/еду в центр, чтобы сделать покупки."
+      },
+      "tú": {
+        "es": "Tú fuiste a la oficina demasiado temprano.",
+        "ru": "Ты пошёл/пошла в офис слишком рано."
+      },
+      "él / ella": {
+        "es": "Él iba al colegio en autobús cuando era niño.",
+        "ru": "Он ездил в школу на автобусе, когда был ребёнком."
+      },
+      "nosotros": {
+        "es": "Nosotros iremos a la cita juntos mañana.",
+        "ru": "Мы пойдём/поедем на встречу вместе завтра."
+      },
+      "vosotros": {
+        "es": "Vosotros iríais a Madrid si el billete fuera más barato.",
+        "ru": "Вы поехали бы в Мадрид, если бы билет был дешевле."
+      },
+      "ellos": {
+        "es": "Quiero que ellas vayan directamente a recepción.",
+        "ru": "Я хочу, чтобы они пошли прямо на ресепшн."
+      }
     }
   }
 ]
