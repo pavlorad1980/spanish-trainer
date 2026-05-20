@@ -1,0 +1,658 @@
+[
+  {
+    "verb": "estar",
+    "translation": "быть (состояние / находиться)",
+    "irregular": true,
+    "forms": {
+      "Presente": "estoy",
+      "Pretérito indefinido": "estuve",
+      "Imperfecto": "estaba",
+      "Futuro simple": "estaré",
+      "Condicional": "estaría",
+      "Presente de subjuntivo": "esté",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo estoy revisando los documentos antes de salir de casa.",
+      "Перевод примера": "Я проверяю документы перед выходом из дома."
+    }
+  },
+  {
+    "verb": "nan",
+    "translation": "nan",
+    "irregular": false,
+    "forms": {
+      "Presente": "estás",
+      "Pretérito indefinido": "estuviste",
+      "Imperfecto": "estabas",
+      "Futuro simple": "estarás",
+      "Condicional": "estarías",
+      "Presente de subjuntivo": "estés",
+      "Imperativo": "está",
+      "Ejemplo español": "Tú estuviste esperando en la oficina durante casi una hora.",
+      "Перевод примера": "Ты ждал(а) в офисе почти час."
+    }
+  },
+  {
+    "verb": "hablar",
+    "translation": "говорить",
+    "irregular": false,
+    "forms": {
+      "Presente": "hablo",
+      "Pretérito indefinido": "hablé",
+      "Imperfecto": "hablaba",
+      "Futuro simple": "hablaré",
+      "Condicional": "hablaría",
+      "Presente de subjuntivo": "hable",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo hablo con la funcionaria para aclarar una duda importante.",
+      "Перевод примера": "Я говорю с сотрудницей, чтобы уточнить важный вопрос."
+    }
+  },
+  {
+    "verb": "trabajar",
+    "translation": "работать",
+    "irregular": false,
+    "forms": {
+      "Presente": "trabajo",
+      "Pretérito indefinido": "trabajé",
+      "Imperfecto": "trabajaba",
+      "Futuro simple": "trabajaré",
+      "Condicional": "trabajaría",
+      "Presente de subjuntivo": "trabaje",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo trabajo desde temprano porque tengo muchas tareas pendientes.",
+      "Перевод примера": "Я работаю с раннего утра, потому что у меня много незавершённых дел."
+    }
+  },
+  {
+    "verb": "descansar",
+    "translation": "отдыхать",
+    "irregular": false,
+    "forms": {
+      "Presente": "descanso",
+      "Pretérito indefinido": "descansé",
+      "Imperfecto": "descansaba",
+      "Futuro simple": "descansaré",
+      "Condicional": "descansaría",
+      "Presente de subjuntivo": "descanse",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo descanso un poco después de terminar las gestiones de la mañana.",
+      "Перевод примера": "Я немного отдыхаю после утренних дел."
+    }
+  },
+  {
+    "verb": "escuchar",
+    "translation": "слушать",
+    "irregular": false,
+    "forms": {
+      "Presente": "escucho",
+      "Pretérito indefinido": "escuché",
+      "Imperfecto": "escuchaba",
+      "Futuro simple": "escucharé",
+      "Condicional": "escucharía",
+      "Presente de subjuntivo": "escuche",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo escucho las instrucciones antes de completar el formulario.",
+      "Перевод примера": "Я слушаю инструкции перед заполнением формы."
+    }
+  },
+  {
+    "verb": "dar",
+    "translation": "давать",
+    "irregular": true,
+    "forms": {
+      "Presente": "doy",
+      "Pretérito indefinido": "di",
+      "Imperfecto": "daba",
+      "Futuro simple": "daré",
+      "Condicional": "daría",
+      "Presente de subjuntivo": "dé",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo doy mi número de teléfono cuando completo la solicitud.",
+      "Перевод примера": "Я даю свой номер телефона, когда заполняю заявление."
+    }
+  },
+  {
+    "verb": "pagar",
+    "translation": "платить",
+    "irregular": false,
+    "forms": {
+      "Presente": "pago",
+      "Pretérito indefinido": "pagué",
+      "Imperfecto": "pagaba",
+      "Futuro simple": "pagaré",
+      "Condicional": "pagaría",
+      "Presente de subjuntivo": "pague",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo pago el alquiler antes del día cinco de cada mes.",
+      "Перевод примера": "Я плачу аренду до пятого числа каждого месяца."
+    }
+  },
+  {
+    "verb": "gustar",
+    "translation": "нравиться",
+    "irregular": false,
+    "forms": {
+      "Presente": "gusto",
+      "Pretérito indefinido": "gusté",
+      "Imperfecto": "gustaba",
+      "Futuro simple": "gustaré",
+      "Condicional": "gustaría",
+      "Presente de subjuntivo": "guste",
+      "Imperativo": "—",
+      "Ejemplo español": "A mí me gusta estudiar con ejemplos largos y reales.",
+      "Перевод примера": "Мне нравится учиться на длинных и реальных примерах."
+    }
+  },
+  {
+    "verb": "mirar",
+    "translation": "смотреть",
+    "irregular": false,
+    "forms": {
+      "Presente": "miro",
+      "Pretérito indefinido": "miré",
+      "Imperfecto": "miraba",
+      "Futuro simple": "miraré",
+      "Condicional": "miraría",
+      "Presente de subjuntivo": "mire",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo miro el calendario antes de pedir una cita nueva.",
+      "Перевод примера": "Я смотрю календарь перед тем, как попросить новую запись."
+    }
+  },
+  {
+    "verb": "viajar",
+    "translation": "путешествовать",
+    "irregular": false,
+    "forms": {
+      "Presente": "viajo",
+      "Pretérito indefinido": "viajé",
+      "Imperfecto": "viajaba",
+      "Futuro simple": "viajaré",
+      "Condicional": "viajaría",
+      "Presente de subjuntivo": "viaje",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo viajo con pocos documentos, pero siempre llevo el pasaporte.",
+      "Перевод примера": "Я путешествую с небольшим количеством документов, но всегда беру паспорт."
+    }
+  },
+  {
+    "verb": "practicar",
+    "translation": "практиковать / заниматься",
+    "irregular": false,
+    "forms": {
+      "Presente": "practico",
+      "Pretérito indefinido": "practiqué",
+      "Imperfecto": "practicaba",
+      "Futuro simple": "practicaré",
+      "Condicional": "practicaría",
+      "Presente de subjuntivo": "practique",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo practico la pronunciación antes de hablar con desconocidos.",
+      "Перевод примера": "Я тренирую произношение перед разговором с незнакомыми людьми."
+    }
+  },
+  {
+    "verb": "llamar",
+    "translation": "звонить / называть",
+    "irregular": false,
+    "forms": {
+      "Presente": "llamo",
+      "Pretérito indefinido": "llamé",
+      "Imperfecto": "llamaba",
+      "Futuro simple": "llamaré",
+      "Condicional": "llamaría",
+      "Presente de subjuntivo": "llame",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo llamo al ayuntamiento para confirmar el horario.",
+      "Перевод примера": "Я звоню в мэрию, чтобы подтвердить расписание."
+    }
+  },
+  {
+    "verb": "cerrar",
+    "translation": "закрывать",
+    "irregular": false,
+    "forms": {
+      "Presente": "cierro",
+      "Pretérito indefinido": "cerré",
+      "Imperfecto": "cerraba",
+      "Futuro simple": "cerraré",
+      "Condicional": "cerraría",
+      "Presente de subjuntivo": "cierre",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo cierro la carpeta cuando termino de revisar los documentos.",
+      "Перевод примера": "Я закрываю папку, когда заканчиваю проверять документы."
+    }
+  },
+  {
+    "verb": "comprar",
+    "translation": "покупать",
+    "irregular": false,
+    "forms": {
+      "Presente": "compro",
+      "Pretérito indefinido": "compré",
+      "Imperfecto": "compraba",
+      "Futuro simple": "compraré",
+      "Condicional": "compraría",
+      "Presente de subjuntivo": "compre",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo compro fruta fresca en el mercado los sábados.",
+      "Перевод примера": "Я покупаю свежие фрукты на рынке по субботам."
+    }
+  },
+  {
+    "verb": "necesitar",
+    "translation": "нуждаться / быть нужным",
+    "irregular": false,
+    "forms": {
+      "Presente": "necesito",
+      "Pretérito indefinido": "necesité",
+      "Imperfecto": "necesitaba",
+      "Futuro simple": "necesitaré",
+      "Condicional": "necesitaría",
+      "Presente de subjuntivo": "necesite",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo necesito una copia del certificado para renovar la tarjeta.",
+      "Перевод примера": "Мне нужна копия сертификата, чтобы продлить карту."
+    }
+  },
+  {
+    "verb": "tener",
+    "translation": "иметь",
+    "irregular": true,
+    "forms": {
+      "Presente": "tengo",
+      "Pretérito indefinido": "tuve",
+      "Imperfecto": "tenía",
+      "Futuro simple": "tendré",
+      "Condicional": "tendría",
+      "Presente de subjuntivo": "tenga",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo tengo todos los documentos guardados en una carpeta.",
+      "Перевод примера": "У меня все документы хранятся в папке."
+    }
+  },
+  {
+    "verb": "hacer",
+    "translation": "делать",
+    "irregular": true,
+    "forms": {
+      "Presente": "hago",
+      "Pretérito indefinido": "hice",
+      "Imperfecto": "hacía",
+      "Futuro simple": "haré",
+      "Condicional": "haría",
+      "Presente de subjuntivo": "haga",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo hago una lista antes de ir a cualquier oficina.",
+      "Перевод примера": "Я делаю список перед походом в любой офис."
+    }
+  },
+  {
+    "verb": "comer",
+    "translation": "есть / кушать",
+    "irregular": false,
+    "forms": {
+      "Presente": "como",
+      "Pretérito indefinido": "comí",
+      "Imperfecto": "comía",
+      "Futuro simple": "comeré",
+      "Condicional": "comería",
+      "Presente de subjuntivo": "coma",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo como algo ligero antes de una cita importante.",
+      "Перевод примера": "Я ем что-то лёгкое перед важной встречей."
+    }
+  },
+  {
+    "verb": "querer",
+    "translation": "хотеть / любить",
+    "irregular": true,
+    "forms": {
+      "Presente": "quiero",
+      "Pretérito indefinido": "quise",
+      "Imperfecto": "quería",
+      "Futuro simple": "querré",
+      "Condicional": "querría",
+      "Presente de subjuntivo": "quiera",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo quiero entender la gramática, no solo memorizar palabras.",
+      "Перевод примера": "Я хочу понимать грамматику, а не просто запоминать слова."
+    }
+  },
+  {
+    "verb": "poder",
+    "translation": "мочь",
+    "irregular": true,
+    "forms": {
+      "Presente": "puedo",
+      "Pretérito indefinido": "pude",
+      "Imperfecto": "podía",
+      "Futuro simple": "podré",
+      "Condicional": "podría",
+      "Presente de subjuntivo": "pueda",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo puedo explicar el problema si me escuchan con atención.",
+      "Перевод примера": "Я могу объяснить проблему, если меня внимательно выслушают."
+    }
+  },
+  {
+    "verb": "ver",
+    "translation": "видеть / смотреть",
+    "irregular": true,
+    "forms": {
+      "Presente": "veo",
+      "Pretérito indefinido": "vi",
+      "Imperfecto": "veía",
+      "Futuro simple": "veré",
+      "Condicional": "vería",
+      "Presente de subjuntivo": "vea",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo veo claramente el error en la segunda página.",
+      "Перевод примера": "Я ясно вижу ошибку на второй странице."
+    }
+  },
+  {
+    "verb": "beber",
+    "translation": "пить",
+    "irregular": false,
+    "forms": {
+      "Presente": "bebo",
+      "Pretérito indefinido": "bebí",
+      "Imperfecto": "bebía",
+      "Futuro simple": "beberé",
+      "Condicional": "bebería",
+      "Presente de subjuntivo": "beba",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo bebo agua antes de empezar la clase.",
+      "Перевод примера": "Я пью воду перед началом занятия."
+    }
+  },
+  {
+    "verb": "leer",
+    "translation": "читать",
+    "irregular": false,
+    "forms": {
+      "Presente": "leo",
+      "Pretérito indefinido": "leí",
+      "Imperfecto": "leía",
+      "Futuro simple": "leeré",
+      "Condicional": "leería",
+      "Presente de subjuntivo": "lea",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo leo las instrucciones antes de firmar cualquier documento.",
+      "Перевод примера": "Я читаю инструкции перед подписанием любого документа."
+    }
+  },
+  {
+    "verb": "saber",
+    "translation": "знать / уметь",
+    "irregular": true,
+    "forms": {
+      "Presente": "sé",
+      "Pretérito indefinido": "supe",
+      "Imperfecto": "sabía",
+      "Futuro simple": "sabré",
+      "Condicional": "sabría",
+      "Presente de subjuntivo": "sepa",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo sé dónde está la oficina de extranjería.",
+      "Перевод примера": "Я знаю, где находится отдел иностранцев."
+    }
+  },
+  {
+    "verb": "entender",
+    "translation": "понимать",
+    "irregular": false,
+    "forms": {
+      "Presente": "entiendo",
+      "Pretérito indefinido": "entendí",
+      "Imperfecto": "entendía",
+      "Futuro simple": "entenderé",
+      "Condicional": "entendería",
+      "Presente de subjuntivo": "entienda",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo entiendo la regla cuando veo varios ejemplos.",
+      "Перевод примера": "Я понимаю правило, когда вижу несколько примеров."
+    }
+  },
+  {
+    "verb": "traer",
+    "translation": "приносить",
+    "irregular": true,
+    "forms": {
+      "Presente": "traigo",
+      "Pretérito indefinido": "traje",
+      "Imperfecto": "traía",
+      "Futuro simple": "traeré",
+      "Condicional": "traería",
+      "Presente de subjuntivo": "traiga",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo traigo los originales por si los piden en la oficina.",
+      "Перевод примера": "Я приношу оригиналы на случай, если их попросят в офисе."
+    }
+  },
+  {
+    "verb": "aprender",
+    "translation": "учить / изучать",
+    "irregular": false,
+    "forms": {
+      "Presente": "aprendo",
+      "Pretérito indefinido": "aprendí",
+      "Imperfecto": "aprendía",
+      "Futuro simple": "aprenderé",
+      "Condicional": "aprendería",
+      "Presente de subjuntivo": "aprenda",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo aprendo mejor cuando escribo mis propios ejemplos.",
+      "Перевод примера": "Я лучше учусь, когда пишу собственные примеры."
+    }
+  },
+  {
+    "verb": "vivir",
+    "translation": "жить",
+    "irregular": false,
+    "forms": {
+      "Presente": "vivo",
+      "Pretérito indefinido": "viví",
+      "Imperfecto": "vivía",
+      "Futuro simple": "viviré",
+      "Condicional": "viviría",
+      "Presente de subjuntivo": "viva",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo vivo cerca de la escuela de mi hija.",
+      "Перевод примера": "Я живу рядом со школой моей дочери."
+    }
+  },
+  {
+    "verb": "decir",
+    "translation": "говорить / сказать",
+    "irregular": true,
+    "forms": {
+      "Presente": "digo",
+      "Pretérito indefinido": "dije",
+      "Imperfecto": "decía",
+      "Futuro simple": "diré",
+      "Condicional": "diría",
+      "Presente de subjuntivo": "diga",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo digo la verdad aunque sea incómoda.",
+      "Перевод примера": "Я говорю правду, даже если она неудобная."
+    }
+  },
+  {
+    "verb": "escribir",
+    "translation": "писать",
+    "irregular": false,
+    "forms": {
+      "Presente": "escribo",
+      "Pretérito indefinido": "escribí",
+      "Imperfecto": "escribía",
+      "Futuro simple": "escribiré",
+      "Condicional": "escribiría",
+      "Presente de subjuntivo": "escriba",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo escribo frases largas para recordar mejor las formas.",
+      "Перевод примера": "Я пишу длинные фразы, чтобы лучше запоминать формы."
+    }
+  },
+  {
+    "verb": "oír",
+    "translation": "слышать",
+    "irregular": true,
+    "forms": {
+      "Presente": "oigo",
+      "Pretérito indefinido": "oí",
+      "Imperfecto": "oía",
+      "Futuro simple": "oiré",
+      "Condicional": "oiría",
+      "Presente de subjuntivo": "oiga",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo oigo ruido en la calle cuando abro la ventana.",
+      "Перевод примера": "Я слышу шум на улице, когда открываю окно."
+    }
+  },
+  {
+    "verb": "abrir",
+    "translation": "открывать",
+    "irregular": false,
+    "forms": {
+      "Presente": "abro",
+      "Pretérito indefinido": "abrí",
+      "Imperfecto": "abría",
+      "Futuro simple": "abriré",
+      "Condicional": "abriría",
+      "Presente de subjuntivo": "abra",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo abro el archivo para comprobar la última versión.",
+      "Перевод примера": "Я открываю файл, чтобы проверить последнюю версию."
+    }
+  },
+  {
+    "verb": "dormir",
+    "translation": "спать",
+    "irregular": true,
+    "forms": {
+      "Presente": "duermo",
+      "Pretérito indefinido": "dormí",
+      "Imperfecto": "dormía",
+      "Futuro simple": "dormiré",
+      "Condicional": "dormiría",
+      "Presente de subjuntivo": "duerma",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo duermo poco cuando tengo una cita importante al día siguiente.",
+      "Перевод примера": "Я мало сплю, когда на следующий день у меня важная запись."
+    }
+  },
+  {
+    "verb": "venir",
+    "translation": "приходить / приезжать",
+    "irregular": true,
+    "forms": {
+      "Presente": "vengo",
+      "Pretérito indefinido": "vine",
+      "Imperfecto": "venía",
+      "Futuro simple": "vendré",
+      "Condicional": "vendría",
+      "Presente de subjuntivo": "venga",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo vengo a la oficina con todos los documentos preparados.",
+      "Перевод примера": "Я прихожу в офис со всеми подготовленными документами."
+    }
+  },
+  {
+    "verb": "repetir",
+    "translation": "повторять",
+    "irregular": true,
+    "forms": {
+      "Presente": "repito",
+      "Pretérito indefinido": "repetí",
+      "Imperfecto": "repetía",
+      "Futuro simple": "repetiré",
+      "Condicional": "repetiría",
+      "Presente de subjuntivo": "repita",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo repito la frase hasta pronunciarla correctamente.",
+      "Перевод примера": "Я повторяю фразу, пока не произнесу её правильно."
+    }
+  },
+  {
+    "verb": "poner",
+    "translation": "класть / ставить",
+    "irregular": true,
+    "forms": {
+      "Presente": "pongo",
+      "Pretérito indefinido": "puse",
+      "Imperfecto": "ponía",
+      "Futuro simple": "pondré",
+      "Condicional": "pondría",
+      "Presente de subjuntivo": "ponga",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo pongo las llaves sobre la mesa para no olvidarlas.",
+      "Перевод примера": "Я кладу ключи на стол, чтобы не забыть их."
+    }
+  },
+  {
+    "verb": "caber",
+    "translation": "помещаться",
+    "irregular": true,
+    "forms": {
+      "Presente": "quepo",
+      "Pretérito indefinido": "cupe",
+      "Imperfecto": "cabía",
+      "Futuro simple": "cabré",
+      "Condicional": "cabría",
+      "Presente de subjuntivo": "quepa",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo quepo en este asiento, pero es bastante incómodo.",
+      "Перевод примера": "Я помещаюсь на этом сиденье, но оно довольно неудобное."
+    }
+  },
+  {
+    "verb": "andar",
+    "translation": "ходить",
+    "irregular": true,
+    "forms": {
+      "Presente": "ando",
+      "Pretérito indefinido": "anduve",
+      "Imperfecto": "andaba",
+      "Futuro simple": "andaré",
+      "Condicional": "andaría",
+      "Presente de subjuntivo": "ande",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo ando por el parque cuando necesito pensar.",
+      "Перевод примера": "Я гуляю по парку, когда мне нужно подумать."
+    }
+  },
+  {
+    "verb": "ser",
+    "translation": "быть",
+    "irregular": true,
+    "forms": {
+      "Presente": "soy",
+      "Pretérito indefinido": "fui",
+      "Imperfecto": "era",
+      "Futuro simple": "seré",
+      "Condicional": "sería",
+      "Presente de subjuntivo": "sea",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo soy responsable de revisar todos los documentos.",
+      "Перевод примера": "Я отвечаю за проверку всех документов."
+    }
+  },
+  {
+    "verb": "ir",
+    "translation": "идти / ехать",
+    "irregular": true,
+    "forms": {
+      "Presente": "voy",
+      "Pretérito indefinido": "fui",
+      "Imperfecto": "iba",
+      "Futuro simple": "iré",
+      "Condicional": "iría",
+      "Presente de subjuntivo": "vaya",
+      "Imperativo": "—",
+      "Ejemplo español": "Yo voy al centro para hacer unas compras.",
+      "Перевод примера": "Я иду/еду в центр, чтобы сделать покупки."
+    }
+  }
+]

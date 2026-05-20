@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Spanish Trainer</string>
+    <string name="title_activity_main">Spanish Trainer</string>
+    <string name="package_name">com.pavlo.spanishtrainer</string>
+    <string name="custom_url_scheme">com.pavlo.spanishtrainer</string>
+</resources>
